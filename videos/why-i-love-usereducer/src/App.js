@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import LoginUseState from './LoginUseState';
 import LoginUseReducer from './LoginUseReducer';
+import LoginUseReducerImmer from './LoginUseReducerImmer';
 
 function App() {
   const [, forceUpdate] = useState();
@@ -17,10 +18,14 @@ function App() {
           <br />
           <br />
           <a href="#useReducer">useReducer</a>
+          <br />
+          <br />
+          <a href="#useReducerImmer">useReducerImmer</a>
         </div>
       )}
       {hash === '#useState' && <LoginUseState />}
       {hash === '#useReducer' && <LoginUseReducer />}
+      {hash === '#useReducerImmer' && <LoginUseReducerImmer />}
     </>
   );
 }
