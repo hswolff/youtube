@@ -16,11 +16,25 @@ function useLocationHash() {
   return hash;
 }
 
-function App() {
+function useSimpleHashRouter(routes) {
   const hash = useLocationHash();
+  // Exclude '#' when calculating hash.
+  const currentRoute = routes[hash.substr(1)];
+  if (currentRoute) {
+    return currentRoute;
+  }
+  return null;
+}
+
+function App() {
+  const CurrentRoute = useSimpleHashRouter({
+    useState: LoginUseState,
+    useReducer: LoginUseReducer,
+    useReducerImmer: LoginUseReducerImmer,
+  });
   return (
     <>
-      {!hash && (
+      {!CurrentRoute && (
         <div className="App App-Column">
           <a href="#useState">useState</a>
           <br />
@@ -31,9 +45,7 @@ function App() {
           <a href="#useReducerImmer">useReducerImmer</a>
         </div>
       )}
-      {hash === '#useState' && <LoginUseState />}
-      {hash === '#useReducer' && <LoginUseReducer />}
-      {hash === '#useReducerImmer' && <LoginUseReducerImmer />}
+      {CurrentRoute && <CurrentRoute />}
     </>
   );
 }
