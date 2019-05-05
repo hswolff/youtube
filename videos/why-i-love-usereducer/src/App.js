@@ -4,12 +4,20 @@ import LoginUseState from './LoginUseState';
 import LoginUseReducer from './LoginUseReducer';
 import LoginUseReducerImmer from './LoginUseReducerImmer';
 
-function App() {
-  const [, forceUpdate] = useState();
-  const { hash } = window.location;
+function useLocationHash() {
+  const [hash, setHash] = useState(window.location.hash);
+  function onHashChange() {
+    setHash(window.location.hash);
+  }
   useEffect(() => {
-    window.addEventListener('hashchange', () => forceUpdate({}));
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
   }, []);
+  return hash;
+}
+
+function App() {
+  const hash = useLocationHash();
   return (
     <>
       {!hash && (
