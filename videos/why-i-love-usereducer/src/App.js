@@ -3,6 +3,7 @@ import './App.css';
 import LoginUseState from './LoginUseState';
 import LoginUseReducer from './LoginUseReducer';
 import LoginUseReducerImmer from './LoginUseReducerImmer';
+import LoginWithContext from './LoginWithContext';
 
 function useLocationHash() {
   const [hash, setHash] = useState(window.location.hash);
@@ -31,6 +32,7 @@ function App() {
     useState: LoginUseState,
     useReducer: LoginUseReducer,
     useReducerImmer: LoginUseReducerImmer,
+    withContext: LoginWithContext,
   });
   return (
     <>
@@ -43,6 +45,9 @@ function App() {
           <br />
           <br />
           <a href="#useReducerImmer">useReducerImmer</a>
+          <br />
+          <br />
+          <a href="#withContext">LoginWithContext</a>
         </div>
       )}
       {CurrentRoute && <CurrentRoute />}
