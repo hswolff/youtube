@@ -43,8 +43,7 @@ input {
   display: flex;
   flex-direction: column;
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 500px;
 }
 
 .todoContainer {
