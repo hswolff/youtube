@@ -38,3 +38,32 @@ input {
   color: red;
   font-weight: bold;
 }
+
+.useContext {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.todoItem {
+  border: 1px solid #eee;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.todoItem p {
+  margin: 0;
+}

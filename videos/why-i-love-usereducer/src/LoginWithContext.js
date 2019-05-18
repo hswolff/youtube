@@ -32,10 +32,30 @@ function loginReducer(draft, action) {
       draft.isLoggedIn = false;
       return;
     }
+    case 'toggleTodoCompleted': {
+      const todo = draft.todos.find(item => item.title === action.payload);
+      todo.completed = !todo.completed;
+      return;
+    }
     default:
       return;
   }
 }
+
+const todos = [
+  {
+    title: 'Get milk',
+    completed: true,
+  },
+  {
+    title: 'Make YouTube video',
+    completed: false,
+  },
+  {
+    title: 'Write blog post',
+    completed: false,
+  },
+];
 
 const initialState = {
   username: '',
@@ -43,11 +63,12 @@ const initialState = {
   isLoading: false,
   error: '',
   isLoggedIn: false,
+  todos,
 };
 
-export default function LoginUseState() {
+export default function LoginUseContext() {
   const [state, dispatch] = useImmerReducer(loginReducer, initialState);
-  const { username, password, isLoading, error, isLoggedIn } = state;
+  const { username, password, isLoading, error, isLoggedIn, todos } = state;
 
   const onSubmit = async e => {
     e.preventDefault();
@@ -63,7 +84,7 @@ export default function LoginUseState() {
   };
 
   return (
-    <div className="App">
+    <div className="App useContext">
       <div className="login-container">
         {isLoggedIn ? (
           <>
@@ -106,6 +127,36 @@ export default function LoginUseState() {
             </button>
           </form>
         )}
+      </div>
+
+      <TodoPage todos={todos} dispatch={dispatch} />
+    </div>
+  );
+}
+
+function TodoPage({ todos, dispatch }) {
+  return (
+    <div className="todoContainer">
+      <h2>Todos</h2>
+      {todos.map(item => (
+        <TodoItem key={item.title} dispatch={dispatch} {...item} />
+      ))}
+    </div>
+  );
+}
+
+function TodoItem({ title, completed, dispatch }) {
+  return (
+    <div className="todoItem">
+      <p>{title}</p>
+      <div>
+        <input
+          type="checkbox"
+          checked={completed}
+          onChange={() =>
+            dispatch({ type: 'toggleTodoCompleted', payload: title })
+          }
+        />
       </div>
     </div>
   );
