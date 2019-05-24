@@ -5293,6 +5293,14 @@ let packageInformationStores = new Map([
         ["anymatch", "2.0.0"],
       ]),
     }],
+    ["1.3.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-anymatch-1.3.2-553dcb8f91e3c889845dfdba34c77721b90b9d7a/node_modules/anymatch/"),
+      packageDependencies: new Map([
+        ["micromatch", "2.3.11"],
+        ["normalize-path", "2.1.1"],
+        ["anymatch", "1.3.2"],
+      ]),
+    }],
   ])],
   ["micromatch", new Map([
     ["3.1.10", {
@@ -5314,6 +5322,25 @@ let packageInformationStores = new Map([
         ["micromatch", "3.1.10"],
       ]),
     }],
+    ["2.3.11", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-micromatch-2.3.11-86677c97d1720b363431d04d0d15293bd38c1565/node_modules/micromatch/"),
+      packageDependencies: new Map([
+        ["arr-diff", "2.0.0"],
+        ["array-unique", "0.2.1"],
+        ["braces", "1.8.5"],
+        ["expand-brackets", "0.1.5"],
+        ["extglob", "0.3.2"],
+        ["filename-regex", "2.0.1"],
+        ["is-extglob", "1.0.0"],
+        ["is-glob", "2.0.1"],
+        ["kind-of", "3.2.2"],
+        ["normalize-path", "2.1.1"],
+        ["object.omit", "2.0.1"],
+        ["parse-glob", "3.0.4"],
+        ["regex-cache", "0.4.4"],
+        ["micromatch", "2.3.11"],
+      ]),
+    }],
   ])],
   ["arr-diff", new Map([
     ["4.0.0", {
@@ -5322,12 +5349,25 @@ let packageInformationStores = new Map([
         ["arr-diff", "4.0.0"],
       ]),
     }],
+    ["2.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-arr-diff-2.0.0-8f3b827f955a8bd669697e4a4256ac3ceae356cf/node_modules/arr-diff/"),
+      packageDependencies: new Map([
+        ["arr-flatten", "1.1.0"],
+        ["arr-diff", "2.0.0"],
+      ]),
+    }],
   ])],
   ["array-unique", new Map([
     ["0.3.2", {
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-array-unique-0.3.2-a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428/node_modules/array-unique/"),
       packageDependencies: new Map([
         ["array-unique", "0.3.2"],
+      ]),
+    }],
+    ["0.2.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-array-unique-0.2.1-a1d97ccafcbc2625cc70fadceb36a50c58b01a53/node_modules/array-unique/"),
+      packageDependencies: new Map([
+        ["array-unique", "0.2.1"],
       ]),
     }],
   ])],
@@ -5346,6 +5386,15 @@ let packageInformationStores = new Map([
         ["split-string", "3.1.0"],
         ["to-regex", "3.0.2"],
         ["braces", "2.3.2"],
+      ]),
+    }],
+    ["1.8.5", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-braces-1.8.5-ba77962e12dff969d6b76711e914b737857bf6a7/node_modules/braces/"),
+      packageDependencies: new Map([
+        ["expand-range", "1.8.2"],
+        ["preserve", "0.2.0"],
+        ["repeat-element", "1.1.3"],
+        ["braces", "1.8.5"],
       ]),
     }],
   ])],
@@ -5385,6 +5434,17 @@ let packageInformationStores = new Map([
         ["fill-range", "4.0.0"],
       ]),
     }],
+    ["2.2.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-fill-range-2.2.4-eb1e773abb056dcd8df2bfdf6af59b8b3a936565/node_modules/fill-range/"),
+      packageDependencies: new Map([
+        ["is-number", "2.1.0"],
+        ["isobject", "2.1.0"],
+        ["randomatic", "3.1.1"],
+        ["repeat-element", "1.1.3"],
+        ["repeat-string", "1.6.1"],
+        ["fill-range", "2.2.4"],
+      ]),
+    }],
   ])],
   ["is-number", new Map([
     ["3.0.0", {
@@ -5392,6 +5452,19 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["kind-of", "3.2.2"],
         ["is-number", "3.0.0"],
+      ]),
+    }],
+    ["2.1.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-number-2.1.0-01fcbbb393463a548f2f466cce16dece49db908f/node_modules/is-number/"),
+      packageDependencies: new Map([
+        ["kind-of", "3.2.2"],
+        ["is-number", "2.1.0"],
+      ]),
+    }],
+    ["4.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-number-4.0.0-0026e37f5454d73e356dfe6564699867c6a7f0ff/node_modules/is-number/"),
+      packageDependencies: new Map([
+        ["is-number", "4.0.0"],
       ]),
     }],
   ])],
@@ -5905,6 +5978,13 @@ let packageInformationStores = new Map([
         ["extglob", "2.0.4"],
       ]),
     }],
+    ["0.3.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-extglob-0.3.2-2e18ff3d2f49ab2765cec9023f011daa8d8349a1/node_modules/extglob/"),
+      packageDependencies: new Map([
+        ["is-extglob", "1.0.0"],
+        ["extglob", "0.3.2"],
+      ]),
+    }],
   ])],
   ["expand-brackets", new Map([
     ["2.1.4", {
@@ -5918,6 +5998,13 @@ let packageInformationStores = new Map([
         ["snapdragon", "0.8.2"],
         ["to-regex", "3.0.2"],
         ["expand-brackets", "2.1.4"],
+      ]),
+    }],
+    ["0.1.5", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-expand-brackets-0.1.5-df07284e342a807cd733ac5af72411e581d1177b/node_modules/expand-brackets/"),
+      packageDependencies: new Map([
+        ["is-posix-bracket", "0.1.1"],
+        ["expand-brackets", "0.1.5"],
       ]),
     }],
   ])],
@@ -10175,6 +10262,14 @@ let packageInformationStores = new Map([
         ["ws", "6.2.1"],
       ]),
     }],
+    ["1.1.5", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-ws-1.1.5-cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51/node_modules/ws/"),
+      packageDependencies: new Map([
+        ["options", "0.0.6"],
+        ["ultron", "1.0.2"],
+        ["ws", "1.1.5"],
+      ]),
+    }],
   ])],
   ["async-limiter", new Map([
     ["1.0.0", {
@@ -12059,6 +12154,21 @@ let packageInformationStores = new Map([
         ["chokidar", "2.1.6"],
       ]),
     }],
+    ["1.7.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-chokidar-1.7.0-798e689778151c8076b4b360e5edd28cda2bb468/node_modules/chokidar/"),
+      packageDependencies: new Map([
+        ["anymatch", "1.3.2"],
+        ["async-each", "1.0.3"],
+        ["glob-parent", "2.0.0"],
+        ["inherits", "2.0.3"],
+        ["is-binary-path", "1.0.1"],
+        ["is-glob", "2.0.1"],
+        ["path-is-absolute", "1.0.1"],
+        ["readdirp", "2.2.1"],
+        ["fsevents", "1.2.9"],
+        ["chokidar", "1.7.0"],
+      ]),
+    }],
   ])],
   ["async-each", new Map([
     ["1.0.3", {
@@ -12077,6 +12187,13 @@ let packageInformationStores = new Map([
         ["glob-parent", "3.1.0"],
       ]),
     }],
+    ["2.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-glob-parent-2.0.0-81383d72db054fcccf5336daa902f182f6edbb28/node_modules/glob-parent/"),
+      packageDependencies: new Map([
+        ["is-glob", "2.0.1"],
+        ["glob-parent", "2.0.0"],
+      ]),
+    }],
   ])],
   ["is-glob", new Map([
     ["3.1.0", {
@@ -12093,12 +12210,25 @@ let packageInformationStores = new Map([
         ["is-glob", "4.0.1"],
       ]),
     }],
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-glob-2.0.1-d096f926a3ded5600f3fdfd91198cb0888c2d863/node_modules/is-glob/"),
+      packageDependencies: new Map([
+        ["is-extglob", "1.0.0"],
+        ["is-glob", "2.0.1"],
+      ]),
+    }],
   ])],
   ["is-extglob", new Map([
     ["2.1.1", {
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-extglob-2.1.1-a88c02535791f02ed37c76a1b9ea9773c833f8c2/node_modules/is-extglob/"),
       packageDependencies: new Map([
         ["is-extglob", "2.1.1"],
+      ]),
+    }],
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-extglob-1.0.0-ac468177c4943405a092fc8f29760c6ffc6206c0/node_modules/is-extglob/"),
+      packageDependencies: new Map([
+        ["is-extglob", "1.0.0"],
       ]),
     }],
   ])],
@@ -15232,6 +15362,457 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
+  ["svelte-learning", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "./videos/svelte-learning/"),
+      packageDependencies: new Map([
+        ["npm-run-all", "4.1.5"],
+        ["rollup", "1.12.3"],
+        ["rollup-plugin-commonjs", "9.3.4"],
+        ["rollup-plugin-livereload", "1.0.0"],
+        ["rollup-plugin-node-resolve", "4.2.4"],
+        ["rollup-plugin-svelte", "5.0.3"],
+        ["rollup-plugin-terser", "4.0.4"],
+        ["sirv-cli", "0.4.2"],
+        ["svelte", "3.4.2"],
+      ]),
+    }],
+  ])],
+  ["npm-run-all", new Map([
+    ["4.1.5", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-npm-run-all-4.1.5-04476202a15ee0e2e214080861bff12a51d98fba/node_modules/npm-run-all/"),
+      packageDependencies: new Map([
+        ["ansi-styles", "3.2.1"],
+        ["chalk", "2.4.2"],
+        ["cross-spawn", "6.0.5"],
+        ["memorystream", "0.3.1"],
+        ["minimatch", "3.0.4"],
+        ["pidtree", "0.3.0"],
+        ["read-pkg", "3.0.0"],
+        ["shell-quote", "1.6.1"],
+        ["string.prototype.padend", "3.0.0"],
+        ["npm-run-all", "4.1.5"],
+      ]),
+    }],
+  ])],
+  ["memorystream", new Map([
+    ["0.3.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-memorystream-0.3.1-86d7090b30ce455d63fbae12dda51a47ddcaf9b2/node_modules/memorystream/"),
+      packageDependencies: new Map([
+        ["memorystream", "0.3.1"],
+      ]),
+    }],
+  ])],
+  ["pidtree", new Map([
+    ["0.3.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-pidtree-0.3.0-f6fada10fccc9f99bf50e90d0b23d72c9ebc2e6b/node_modules/pidtree/"),
+      packageDependencies: new Map([
+        ["pidtree", "0.3.0"],
+      ]),
+    }],
+  ])],
+  ["string.prototype.padend", new Map([
+    ["3.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-string-prototype-padend-3.0.0-f3aaef7c1719f170c5eab1c32bf780d96e21f2f0/node_modules/string.prototype.padend/"),
+      packageDependencies: new Map([
+        ["define-properties", "1.1.3"],
+        ["es-abstract", "1.13.0"],
+        ["function-bind", "1.1.1"],
+        ["string.prototype.padend", "3.0.0"],
+      ]),
+    }],
+  ])],
+  ["rollup", new Map([
+    ["1.12.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-1.12.3-068b1957d5bebf6c0a758cfe42609b512add35a9/node_modules/rollup/"),
+      packageDependencies: new Map([
+        ["@types/estree", "0.0.39"],
+        ["@types/node", "12.0.2"],
+        ["acorn", "6.1.1"],
+        ["rollup", "1.12.3"],
+      ]),
+    }],
+  ])],
+  ["@types/estree", new Map([
+    ["0.0.39", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@types-estree-0.0.39-e177e699ee1b8c22d23174caaa7422644389509f/node_modules/@types/estree/"),
+      packageDependencies: new Map([
+        ["@types/estree", "0.0.39"],
+      ]),
+    }],
+  ])],
+  ["rollup-plugin-commonjs", new Map([
+    ["9.3.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-plugin-commonjs-9.3.4-2b3dddbbbded83d45c36ff101cdd29e924fd23bc/node_modules/rollup-plugin-commonjs/"),
+      packageDependencies: new Map([
+        ["rollup", "1.12.3"],
+        ["estree-walker", "0.6.0"],
+        ["magic-string", "0.25.2"],
+        ["resolve", "1.11.0"],
+        ["rollup-pluginutils", "2.7.1"],
+        ["rollup-plugin-commonjs", "9.3.4"],
+      ]),
+    }],
+  ])],
+  ["estree-walker", new Map([
+    ["0.6.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-estree-walker-0.6.0-5d865327c44a618dde5699f763891ae31f257dae/node_modules/estree-walker/"),
+      packageDependencies: new Map([
+        ["estree-walker", "0.6.0"],
+      ]),
+    }],
+  ])],
+  ["magic-string", new Map([
+    ["0.25.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-magic-string-0.25.2-139c3a729515ec55e96e69e82a11fe890a293ad9/node_modules/magic-string/"),
+      packageDependencies: new Map([
+        ["sourcemap-codec", "1.4.4"],
+        ["magic-string", "0.25.2"],
+      ]),
+    }],
+  ])],
+  ["sourcemap-codec", new Map([
+    ["1.4.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/"),
+      packageDependencies: new Map([
+        ["sourcemap-codec", "1.4.4"],
+      ]),
+    }],
+  ])],
+  ["rollup-pluginutils", new Map([
+    ["2.7.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-pluginutils-2.7.1-a7915ce8b12c177364784bf38a1590cc6c2c8250/node_modules/rollup-pluginutils/"),
+      packageDependencies: new Map([
+        ["estree-walker", "0.6.0"],
+        ["micromatch", "3.1.10"],
+        ["rollup-pluginutils", "2.7.1"],
+      ]),
+    }],
+  ])],
+  ["rollup-plugin-livereload", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-plugin-livereload-1.0.0-7ebaeea382019037e21265cd49942122281d5646/node_modules/rollup-plugin-livereload/"),
+      packageDependencies: new Map([
+        ["rollup", "1.12.3"],
+        ["livereload", "0.7.0"],
+        ["rollup-plugin-livereload", "1.0.0"],
+      ]),
+    }],
+  ])],
+  ["livereload", new Map([
+    ["0.7.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-livereload-0.7.0-38238dd155ffb251191697f737b6b13f471da115/node_modules/livereload/"),
+      packageDependencies: new Map([
+        ["chokidar", "1.7.0"],
+        ["opts", "1.2.6"],
+        ["ws", "1.1.5"],
+        ["livereload", "0.7.0"],
+      ]),
+    }],
+  ])],
+  ["expand-range", new Map([
+    ["1.8.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-expand-range-1.8.2-a299effd335fe2721ebae8e257ec79644fc85337/node_modules/expand-range/"),
+      packageDependencies: new Map([
+        ["fill-range", "2.2.4"],
+        ["expand-range", "1.8.2"],
+      ]),
+    }],
+  ])],
+  ["randomatic", new Map([
+    ["3.1.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-randomatic-3.1.1-b776efc59375984e36c537b2f51a1f0aff0da1ed/node_modules/randomatic/"),
+      packageDependencies: new Map([
+        ["is-number", "4.0.0"],
+        ["kind-of", "6.0.2"],
+        ["math-random", "1.0.4"],
+        ["randomatic", "3.1.1"],
+      ]),
+    }],
+  ])],
+  ["math-random", new Map([
+    ["1.0.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-math-random-1.0.4-5dd6943c938548267016d4e34f057583080c514c/node_modules/math-random/"),
+      packageDependencies: new Map([
+        ["math-random", "1.0.4"],
+      ]),
+    }],
+  ])],
+  ["preserve", new Map([
+    ["0.2.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-preserve-0.2.0-815ed1f6ebc65926f865b310c0713bcb3315ce4b/node_modules/preserve/"),
+      packageDependencies: new Map([
+        ["preserve", "0.2.0"],
+      ]),
+    }],
+  ])],
+  ["is-posix-bracket", new Map([
+    ["0.1.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-posix-bracket-0.1.1-3334dc79774368e92f016e6fbc0a88f5cd6e6bc4/node_modules/is-posix-bracket/"),
+      packageDependencies: new Map([
+        ["is-posix-bracket", "0.1.1"],
+      ]),
+    }],
+  ])],
+  ["filename-regex", new Map([
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-filename-regex-2.0.1-c1c4b9bee3e09725ddb106b75c1e301fe2f18b26/node_modules/filename-regex/"),
+      packageDependencies: new Map([
+        ["filename-regex", "2.0.1"],
+      ]),
+    }],
+  ])],
+  ["object.omit", new Map([
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-object-omit-2.0.1-1a9c744829f39dbb858c76ca3579ae2a54ebd1fa/node_modules/object.omit/"),
+      packageDependencies: new Map([
+        ["for-own", "0.1.5"],
+        ["is-extendable", "0.1.1"],
+        ["object.omit", "2.0.1"],
+      ]),
+    }],
+  ])],
+  ["parse-glob", new Map([
+    ["3.0.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-parse-glob-3.0.4-b2c376cfb11f35513badd173ef0bb6e3a388391c/node_modules/parse-glob/"),
+      packageDependencies: new Map([
+        ["glob-base", "0.3.0"],
+        ["is-dotfile", "1.0.3"],
+        ["is-extglob", "1.0.0"],
+        ["is-glob", "2.0.1"],
+        ["parse-glob", "3.0.4"],
+      ]),
+    }],
+  ])],
+  ["glob-base", new Map([
+    ["0.3.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-glob-base-0.3.0-dbb164f6221b1c0b1ccf82aea328b497df0ea3c4/node_modules/glob-base/"),
+      packageDependencies: new Map([
+        ["glob-parent", "2.0.0"],
+        ["is-glob", "2.0.1"],
+        ["glob-base", "0.3.0"],
+      ]),
+    }],
+  ])],
+  ["is-dotfile", new Map([
+    ["1.0.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-dotfile-1.0.3-a6a2f32ffd2dfb04f5ca25ecd0f6b83cf798a1e1/node_modules/is-dotfile/"),
+      packageDependencies: new Map([
+        ["is-dotfile", "1.0.3"],
+      ]),
+    }],
+  ])],
+  ["regex-cache", new Map([
+    ["0.4.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-regex-cache-0.4.4-75bdc58a2a1496cec48a12835bc54c8d562336dd/node_modules/regex-cache/"),
+      packageDependencies: new Map([
+        ["is-equal-shallow", "0.1.3"],
+        ["regex-cache", "0.4.4"],
+      ]),
+    }],
+  ])],
+  ["is-equal-shallow", new Map([
+    ["0.1.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-equal-shallow-0.1.3-2238098fc221de0bcfa5d9eac4c45d638aa1c534/node_modules/is-equal-shallow/"),
+      packageDependencies: new Map([
+        ["is-primitive", "2.0.0"],
+        ["is-equal-shallow", "0.1.3"],
+      ]),
+    }],
+  ])],
+  ["is-primitive", new Map([
+    ["2.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-primitive-2.0.0-207bab91638499c07b2adf240a41a87210034575/node_modules/is-primitive/"),
+      packageDependencies: new Map([
+        ["is-primitive", "2.0.0"],
+      ]),
+    }],
+  ])],
+  ["opts", new Map([
+    ["1.2.6", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-opts-1.2.6-d185c0425cfdeb9da1d182908b65b5c0238febb3/node_modules/opts/"),
+      packageDependencies: new Map([
+        ["opts", "1.2.6"],
+      ]),
+    }],
+  ])],
+  ["options", new Map([
+    ["0.0.6", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-options-0.0.6-ec22d312806bb53e731773e7cdaefcf1c643128f/node_modules/options/"),
+      packageDependencies: new Map([
+        ["options", "0.0.6"],
+      ]),
+    }],
+  ])],
+  ["ultron", new Map([
+    ["1.0.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-ultron-1.0.2-ace116ab557cd197386a4e88f4685378c8b2e4fa/node_modules/ultron/"),
+      packageDependencies: new Map([
+        ["ultron", "1.0.2"],
+      ]),
+    }],
+  ])],
+  ["rollup-plugin-node-resolve", new Map([
+    ["4.2.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-plugin-node-resolve-4.2.4-7d370f8d6fd3031006a0032c38262dd9be3c6250/node_modules/rollup-plugin-node-resolve/"),
+      packageDependencies: new Map([
+        ["@types/resolve", "0.0.8"],
+        ["builtin-modules", "3.1.0"],
+        ["is-module", "1.0.0"],
+        ["resolve", "1.11.0"],
+        ["rollup-plugin-node-resolve", "4.2.4"],
+      ]),
+    }],
+  ])],
+  ["@types/resolve", new Map([
+    ["0.0.8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@types-resolve-0.0.8-f26074d238e02659e323ce1a13d041eee280e194/node_modules/@types/resolve/"),
+      packageDependencies: new Map([
+        ["@types/node", "12.0.2"],
+        ["@types/resolve", "0.0.8"],
+      ]),
+    }],
+  ])],
+  ["builtin-modules", new Map([
+    ["3.1.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-builtin-modules-3.1.0-aad97c15131eb76b65b50ef208e7584cd76a7484/node_modules/builtin-modules/"),
+      packageDependencies: new Map([
+        ["builtin-modules", "3.1.0"],
+      ]),
+    }],
+  ])],
+  ["is-module", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-is-module-1.0.0-3258fb69f78c14d5b815d664336b4cffb6441591/node_modules/is-module/"),
+      packageDependencies: new Map([
+        ["is-module", "1.0.0"],
+      ]),
+    }],
+  ])],
+  ["rollup-plugin-svelte", new Map([
+    ["5.0.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-plugin-svelte-5.0.3-1e4cce33a94b0b4b4831abc7d76eabdf333ab63d/node_modules/rollup-plugin-svelte/"),
+      packageDependencies: new Map([
+        ["svelte", "3.4.2"],
+        ["rollup", "1.12.3"],
+        ["require-relative", "0.8.7"],
+        ["rollup-pluginutils", "2.7.1"],
+        ["sourcemap-codec", "1.4.4"],
+        ["rollup-plugin-svelte", "5.0.3"],
+      ]),
+    }],
+  ])],
+  ["require-relative", new Map([
+    ["0.8.7", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-require-relative-0.8.7-7999539fc9e047a37928fa196f8e1563dabd36de/node_modules/require-relative/"),
+      packageDependencies: new Map([
+        ["require-relative", "0.8.7"],
+      ]),
+    }],
+  ])],
+  ["rollup-plugin-terser", new Map([
+    ["4.0.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-rollup-plugin-terser-4.0.4-6f661ef284fa7c27963d242601691dc3d23f994e/node_modules/rollup-plugin-terser/"),
+      packageDependencies: new Map([
+        ["rollup", "1.12.3"],
+        ["@babel/code-frame", "7.0.0"],
+        ["jest-worker", "24.6.0"],
+        ["serialize-javascript", "1.7.0"],
+        ["terser", "3.17.0"],
+        ["rollup-plugin-terser", "4.0.4"],
+      ]),
+    }],
+  ])],
+  ["sirv-cli", new Map([
+    ["0.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sirv-cli-0.4.2-86ed7f9df7982d4a350dacbb13063e85f0b6a75f/node_modules/sirv-cli/"),
+      packageDependencies: new Map([
+        ["console-clear", "1.1.1"],
+        ["get-port", "3.2.0"],
+        ["kleur", "3.0.3"],
+        ["local-access", "1.0.1"],
+        ["sade", "1.4.2"],
+        ["sirv", "0.4.2"],
+        ["tinydate", "1.0.1"],
+        ["sirv-cli", "0.4.2"],
+      ]),
+    }],
+  ])],
+  ["console-clear", new Map([
+    ["1.1.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-console-clear-1.1.1-995e20cbfbf14dd792b672cde387bd128d674bf7/node_modules/console-clear/"),
+      packageDependencies: new Map([
+        ["console-clear", "1.1.1"],
+      ]),
+    }],
+  ])],
+  ["get-port", new Map([
+    ["3.2.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-get-port-3.2.0-dd7ce7de187c06c8bf353796ac71e099f0980ebc/node_modules/get-port/"),
+      packageDependencies: new Map([
+        ["get-port", "3.2.0"],
+      ]),
+    }],
+  ])],
+  ["local-access", new Map([
+    ["1.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-local-access-1.0.1-5121258146d64e869046c642ea4f1dd39ff942bb/node_modules/local-access/"),
+      packageDependencies: new Map([
+        ["local-access", "1.0.1"],
+      ]),
+    }],
+  ])],
+  ["sade", new Map([
+    ["1.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sade-1.4.2-b1946ef9ec62450b74e17d9fec30156c94f193a6/node_modules/sade/"),
+      packageDependencies: new Map([
+        ["mri", "1.1.4"],
+        ["sade", "1.4.2"],
+      ]),
+    }],
+  ])],
+  ["mri", new Map([
+    ["1.1.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-mri-1.1.4-7cb1dd1b9b40905f1fac053abe25b6720f44744a/node_modules/mri/"),
+      packageDependencies: new Map([
+        ["mri", "1.1.4"],
+      ]),
+    }],
+  ])],
+  ["sirv", new Map([
+    ["0.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/"),
+      packageDependencies: new Map([
+        ["@polka/url", "0.5.0"],
+        ["mime", "2.4.3"],
+        ["sirv", "0.4.2"],
+      ]),
+    }],
+  ])],
+  ["@polka/url", new Map([
+    ["0.5.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/"),
+      packageDependencies: new Map([
+        ["@polka/url", "0.5.0"],
+      ]),
+    }],
+  ])],
+  ["tinydate", new Map([
+    ["1.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tinydate-1.0.1-5e38797e2e3e79ce2300543f586c6caa2dfcf668/node_modules/tinydate/"),
+      packageDependencies: new Map([
+        ["tinydate", "1.0.1"],
+      ]),
+    }],
+  ])],
+  ["svelte", new Map([
+    ["3.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/"),
+      packageDependencies: new Map([
+        ["svelte", "3.4.2"],
+      ]),
+    }],
+  ])],
   ["what-is-react-ink", new Map([
     ["1.0.0", {
       packageLocation: path.resolve(__dirname, "./videos/what-is-react-ink/"),
@@ -15476,6 +16057,7 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "./"),
       packageDependencies: new Map([
         ["react-demos", "0.1.0"],
+        ["svelte-learning", "1.0.0"],
         ["what-is-react-ink", "1.0.0"],
         ["why-i-love-usereducer", "0.1.0"],
       ]),
@@ -16310,15 +16892,23 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-fast-json-stable-stringify-2.0.0-d5142c0caee6b1189f87d3a76111064f86c8bbf2/node_modules/fast-json-stable-stringify/", {"name":"fast-json-stable-stringify","reference":"2.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-jest-haste-map-24.8.0-51794182d877b3ddfd6e6d23920e3fe72f305800/node_modules/jest-haste-map/", {"name":"jest-haste-map","reference":"24.8.0"}],
   ["../../Library/Caches/Yarn/v4/npm-anymatch-2.0.0-bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb/node_modules/anymatch/", {"name":"anymatch","reference":"2.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-anymatch-1.3.2-553dcb8f91e3c889845dfdba34c77721b90b9d7a/node_modules/anymatch/", {"name":"anymatch","reference":"1.3.2"}],
   ["../../Library/Caches/Yarn/v4/npm-micromatch-3.1.10-70859bc95c9840952f359a068a3fc49f9ecfac23/node_modules/micromatch/", {"name":"micromatch","reference":"3.1.10"}],
+  ["../../Library/Caches/Yarn/v4/npm-micromatch-2.3.11-86677c97d1720b363431d04d0d15293bd38c1565/node_modules/micromatch/", {"name":"micromatch","reference":"2.3.11"}],
   ["../../Library/Caches/Yarn/v4/npm-arr-diff-4.0.0-d6461074febfec71e7e15235761a329a5dc7c520/node_modules/arr-diff/", {"name":"arr-diff","reference":"4.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-arr-diff-2.0.0-8f3b827f955a8bd669697e4a4256ac3ceae356cf/node_modules/arr-diff/", {"name":"arr-diff","reference":"2.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-array-unique-0.3.2-a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428/node_modules/array-unique/", {"name":"array-unique","reference":"0.3.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-array-unique-0.2.1-a1d97ccafcbc2625cc70fadceb36a50c58b01a53/node_modules/array-unique/", {"name":"array-unique","reference":"0.2.1"}],
   ["../../Library/Caches/Yarn/v4/npm-braces-2.3.2-5979fd3f14cd531565e5fa2df1abfff1dfaee729/node_modules/braces/", {"name":"braces","reference":"2.3.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-braces-1.8.5-ba77962e12dff969d6b76711e914b737857bf6a7/node_modules/braces/", {"name":"braces","reference":"1.8.5"}],
   ["../../Library/Caches/Yarn/v4/npm-arr-flatten-1.1.0-36048bbff4e7b47e136644316c99669ea5ae91f1/node_modules/arr-flatten/", {"name":"arr-flatten","reference":"1.1.0"}],
   ["../../Library/Caches/Yarn/v4/npm-extend-shallow-2.0.1-51af7d614ad9a9f610ea1bafbb989d6b1c56890f/node_modules/extend-shallow/", {"name":"extend-shallow","reference":"2.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-extend-shallow-3.0.2-26a71aaf073b39fb2127172746131c2704028db8/node_modules/extend-shallow/", {"name":"extend-shallow","reference":"3.0.2"}],
   ["../../Library/Caches/Yarn/v4/npm-fill-range-4.0.0-d544811d428f98eb06a63dc402d2403c328c38f7/node_modules/fill-range/", {"name":"fill-range","reference":"4.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-fill-range-2.2.4-eb1e773abb056dcd8df2bfdf6af59b8b3a936565/node_modules/fill-range/", {"name":"fill-range","reference":"2.2.4"}],
   ["../../Library/Caches/Yarn/v4/npm-is-number-3.0.0-24fd6201a4782cf50561c810276afc7d12d71195/node_modules/is-number/", {"name":"is-number","reference":"3.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-number-2.1.0-01fcbbb393463a548f2f466cce16dece49db908f/node_modules/is-number/", {"name":"is-number","reference":"2.1.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-number-4.0.0-0026e37f5454d73e356dfe6564699867c6a7f0ff/node_modules/is-number/", {"name":"is-number","reference":"4.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637/node_modules/repeat-string/", {"name":"repeat-string","reference":"1.6.1"}],
   ["../../Library/Caches/Yarn/v4/npm-to-regex-range-2.1.1-7c80c17b9dfebe599e27367e0d4dd5590141db38/node_modules/to-regex-range/", {"name":"to-regex-range","reference":"2.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-repeat-element-1.1.3-782e0d825c0c5a3bb39731f84efee6b742e6b1ce/node_modules/repeat-element/", {"name":"repeat-element","reference":"1.1.3"}],
@@ -16372,7 +16962,9 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-safe-regex-1.1.0-40a3669f3b077d1e943d44629e157dd48023bf2e/node_modules/safe-regex/", {"name":"safe-regex","reference":"1.1.0"}],
   ["../../Library/Caches/Yarn/v4/npm-ret-0.1.15-b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc/node_modules/ret/", {"name":"ret","reference":"0.1.15"}],
   ["../../Library/Caches/Yarn/v4/npm-extglob-2.0.4-ad00fe4dc612a9232e8718711dc5cb5ab0285543/node_modules/extglob/", {"name":"extglob","reference":"2.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-extglob-0.3.2-2e18ff3d2f49ab2765cec9023f011daa8d8349a1/node_modules/extglob/", {"name":"extglob","reference":"0.3.2"}],
   ["../../Library/Caches/Yarn/v4/npm-expand-brackets-2.1.4-b77735e315ce30f6b6eff0f83b04151a22449622/node_modules/expand-brackets/", {"name":"expand-brackets","reference":"2.1.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-expand-brackets-0.1.5-df07284e342a807cd733ac5af72411e581d1177b/node_modules/expand-brackets/", {"name":"expand-brackets","reference":"0.1.5"}],
   ["../../Library/Caches/Yarn/v4/npm-posix-character-classes-0.1.1-01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab/node_modules/posix-character-classes/", {"name":"posix-character-classes","reference":"0.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-fragment-cache-0.2.1-4290fad27f13e89be7f33799c6bc5a0abfff0d19/node_modules/fragment-cache/", {"name":"fragment-cache","reference":"0.2.1"}],
   ["../../Library/Caches/Yarn/v4/npm-nanomatch-1.2.13-b87a8aa4fc0de8fe6be88895b38983ff265bd119/node_modules/nanomatch/", {"name":"nanomatch","reference":"1.2.13"}],
@@ -16793,6 +17385,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-browser-process-hrtime-0.1.3-616f00faef1df7ec1b5bf9cfe2bdc3170f26c7b4/node_modules/browser-process-hrtime/", {"name":"browser-process-hrtime","reference":"0.1.3"}],
   ["../../Library/Caches/Yarn/v4/npm-ws-5.2.2-dffef14866b8e8dc9133582514d1befaf96e980f/node_modules/ws/", {"name":"ws","reference":"5.2.2"}],
   ["../../Library/Caches/Yarn/v4/npm-ws-6.2.1-442fdf0a47ed64f59b6a5d8ff130f4748ed524fb/node_modules/ws/", {"name":"ws","reference":"6.2.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-ws-1.1.5-cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51/node_modules/ws/", {"name":"ws","reference":"1.1.5"}],
   ["../../Library/Caches/Yarn/v4/npm-async-limiter-1.0.0-78faed8c3d074ab81f22b4e985d79e8738f720f8/node_modules/async-limiter/", {"name":"async-limiter","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-xml-name-validator-3.0.0-6ae73e06de4d8c6e47f9fb181f78d648ad457c6a/node_modules/xml-name-validator/", {"name":"xml-name-validator","reference":"3.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-jest-environment-node-24.8.0-d3f726ba8bc53087a60e7a84ca08883a4c892231/node_modules/jest-environment-node/", {"name":"jest-environment-node","reference":"24.8.0"}],
@@ -16977,11 +17570,15 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-babel-code-frame-6.26.0-63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b/node_modules/babel-code-frame/", {"name":"babel-code-frame","reference":"6.26.0"}],
   ["../../Library/Caches/Yarn/v4/npm-has-ansi-2.0.0-34f5049ce1ecdf2b0649af3ef24e45ed35416d91/node_modules/has-ansi/", {"name":"has-ansi","reference":"2.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-chokidar-2.1.6-b6cad653a929e244ce8a834244164d241fa954c5/node_modules/chokidar/", {"name":"chokidar","reference":"2.1.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-chokidar-1.7.0-798e689778151c8076b4b360e5edd28cda2bb468/node_modules/chokidar/", {"name":"chokidar","reference":"1.7.0"}],
   ["../../Library/Caches/Yarn/v4/npm-async-each-1.0.3-b727dbf87d7651602f06f4d4ac387f47d91b0cbf/node_modules/async-each/", {"name":"async-each","reference":"1.0.3"}],
   ["../../Library/Caches/Yarn/v4/npm-glob-parent-3.1.0-9e6af6299d8d3bd2bd40430832bd113df906c5ae/node_modules/glob-parent/", {"name":"glob-parent","reference":"3.1.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-glob-parent-2.0.0-81383d72db054fcccf5336daa902f182f6edbb28/node_modules/glob-parent/", {"name":"glob-parent","reference":"2.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-is-glob-3.1.0-7ba5ae24217804ac70707b96922567486cc3e84a/node_modules/is-glob/", {"name":"is-glob","reference":"3.1.0"}],
   ["../../Library/Caches/Yarn/v4/npm-is-glob-4.0.1-7567dbe9f2f5e2467bc77ab83c4a29482407a5dc/node_modules/is-glob/", {"name":"is-glob","reference":"4.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-glob-2.0.1-d096f926a3ded5600f3fdfd91198cb0888c2d863/node_modules/is-glob/", {"name":"is-glob","reference":"2.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-is-extglob-2.1.1-a88c02535791f02ed37c76a1b9ea9773c833f8c2/node_modules/is-extglob/", {"name":"is-extglob","reference":"2.1.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-extglob-1.0.0-ac468177c4943405a092fc8f29760c6ffc6206c0/node_modules/is-extglob/", {"name":"is-extglob","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-path-dirname-1.0.2-cc33d24d525e099a5388c0336c6e32b9160609e0/node_modules/path-dirname/", {"name":"path-dirname","reference":"1.0.2"}],
   ["../../Library/Caches/Yarn/v4/npm-is-binary-path-1.0.1-75f16642b480f187a711c814161fd3a4a7655898/node_modules/is-binary-path/", {"name":"is-binary-path","reference":"1.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-binary-extensions-1.13.1-598afe54755b2868a5330d2aff9d4ebb53209b65/node_modules/binary-extensions/", {"name":"binary-extensions","reference":"1.13.1"}],
@@ -17291,6 +17888,53 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-workbox-streams-4.3.1-0b57da70e982572de09c8742dd0cb40a6b7c2cc3/node_modules/workbox-streams/", {"name":"workbox-streams","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-sw-4.3.1-df69e395c479ef4d14499372bcd84c0f5e246164/node_modules/workbox-sw/", {"name":"workbox-sw","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-window-4.3.1-ee6051bf10f06afa5483c9b8dfa0531994ede0f3/node_modules/workbox-window/", {"name":"workbox-window","reference":"4.3.1"}],
+  ["./videos/svelte-learning/", {"name":"svelte-learning","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-npm-run-all-4.1.5-04476202a15ee0e2e214080861bff12a51d98fba/node_modules/npm-run-all/", {"name":"npm-run-all","reference":"4.1.5"}],
+  ["../../Library/Caches/Yarn/v4/npm-memorystream-0.3.1-86d7090b30ce455d63fbae12dda51a47ddcaf9b2/node_modules/memorystream/", {"name":"memorystream","reference":"0.3.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-pidtree-0.3.0-f6fada10fccc9f99bf50e90d0b23d72c9ebc2e6b/node_modules/pidtree/", {"name":"pidtree","reference":"0.3.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-string-prototype-padend-3.0.0-f3aaef7c1719f170c5eab1c32bf780d96e21f2f0/node_modules/string.prototype.padend/", {"name":"string.prototype.padend","reference":"3.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-1.12.3-068b1957d5bebf6c0a758cfe42609b512add35a9/node_modules/rollup/", {"name":"rollup","reference":"1.12.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-@types-estree-0.0.39-e177e699ee1b8c22d23174caaa7422644389509f/node_modules/@types/estree/", {"name":"@types/estree","reference":"0.0.39"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-commonjs-9.3.4-2b3dddbbbded83d45c36ff101cdd29e924fd23bc/node_modules/rollup-plugin-commonjs/", {"name":"rollup-plugin-commonjs","reference":"9.3.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-estree-walker-0.6.0-5d865327c44a618dde5699f763891ae31f257dae/node_modules/estree-walker/", {"name":"estree-walker","reference":"0.6.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-magic-string-0.25.2-139c3a729515ec55e96e69e82a11fe890a293ad9/node_modules/magic-string/", {"name":"magic-string","reference":"0.25.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/", {"name":"sourcemap-codec","reference":"1.4.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-pluginutils-2.7.1-a7915ce8b12c177364784bf38a1590cc6c2c8250/node_modules/rollup-pluginutils/", {"name":"rollup-pluginutils","reference":"2.7.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-livereload-1.0.0-7ebaeea382019037e21265cd49942122281d5646/node_modules/rollup-plugin-livereload/", {"name":"rollup-plugin-livereload","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-livereload-0.7.0-38238dd155ffb251191697f737b6b13f471da115/node_modules/livereload/", {"name":"livereload","reference":"0.7.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-expand-range-1.8.2-a299effd335fe2721ebae8e257ec79644fc85337/node_modules/expand-range/", {"name":"expand-range","reference":"1.8.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-randomatic-3.1.1-b776efc59375984e36c537b2f51a1f0aff0da1ed/node_modules/randomatic/", {"name":"randomatic","reference":"3.1.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-math-random-1.0.4-5dd6943c938548267016d4e34f057583080c514c/node_modules/math-random/", {"name":"math-random","reference":"1.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-preserve-0.2.0-815ed1f6ebc65926f865b310c0713bcb3315ce4b/node_modules/preserve/", {"name":"preserve","reference":"0.2.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-posix-bracket-0.1.1-3334dc79774368e92f016e6fbc0a88f5cd6e6bc4/node_modules/is-posix-bracket/", {"name":"is-posix-bracket","reference":"0.1.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-filename-regex-2.0.1-c1c4b9bee3e09725ddb106b75c1e301fe2f18b26/node_modules/filename-regex/", {"name":"filename-regex","reference":"2.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-object-omit-2.0.1-1a9c744829f39dbb858c76ca3579ae2a54ebd1fa/node_modules/object.omit/", {"name":"object.omit","reference":"2.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-parse-glob-3.0.4-b2c376cfb11f35513badd173ef0bb6e3a388391c/node_modules/parse-glob/", {"name":"parse-glob","reference":"3.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-glob-base-0.3.0-dbb164f6221b1c0b1ccf82aea328b497df0ea3c4/node_modules/glob-base/", {"name":"glob-base","reference":"0.3.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-dotfile-1.0.3-a6a2f32ffd2dfb04f5ca25ecd0f6b83cf798a1e1/node_modules/is-dotfile/", {"name":"is-dotfile","reference":"1.0.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-regex-cache-0.4.4-75bdc58a2a1496cec48a12835bc54c8d562336dd/node_modules/regex-cache/", {"name":"regex-cache","reference":"0.4.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-equal-shallow-0.1.3-2238098fc221de0bcfa5d9eac4c45d638aa1c534/node_modules/is-equal-shallow/", {"name":"is-equal-shallow","reference":"0.1.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-primitive-2.0.0-207bab91638499c07b2adf240a41a87210034575/node_modules/is-primitive/", {"name":"is-primitive","reference":"2.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-opts-1.2.6-d185c0425cfdeb9da1d182908b65b5c0238febb3/node_modules/opts/", {"name":"opts","reference":"1.2.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-options-0.0.6-ec22d312806bb53e731773e7cdaefcf1c643128f/node_modules/options/", {"name":"options","reference":"0.0.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-ultron-1.0.2-ace116ab557cd197386a4e88f4685378c8b2e4fa/node_modules/ultron/", {"name":"ultron","reference":"1.0.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-node-resolve-4.2.4-7d370f8d6fd3031006a0032c38262dd9be3c6250/node_modules/rollup-plugin-node-resolve/", {"name":"rollup-plugin-node-resolve","reference":"4.2.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-@types-resolve-0.0.8-f26074d238e02659e323ce1a13d041eee280e194/node_modules/@types/resolve/", {"name":"@types/resolve","reference":"0.0.8"}],
+  ["../../Library/Caches/Yarn/v4/npm-builtin-modules-3.1.0-aad97c15131eb76b65b50ef208e7584cd76a7484/node_modules/builtin-modules/", {"name":"builtin-modules","reference":"3.1.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-is-module-1.0.0-3258fb69f78c14d5b815d664336b4cffb6441591/node_modules/is-module/", {"name":"is-module","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-svelte-5.0.3-1e4cce33a94b0b4b4831abc7d76eabdf333ab63d/node_modules/rollup-plugin-svelte/", {"name":"rollup-plugin-svelte","reference":"5.0.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-require-relative-0.8.7-7999539fc9e047a37928fa196f8e1563dabd36de/node_modules/require-relative/", {"name":"require-relative","reference":"0.8.7"}],
+  ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-terser-4.0.4-6f661ef284fa7c27963d242601691dc3d23f994e/node_modules/rollup-plugin-terser/", {"name":"rollup-plugin-terser","reference":"4.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-sirv-cli-0.4.2-86ed7f9df7982d4a350dacbb13063e85f0b6a75f/node_modules/sirv-cli/", {"name":"sirv-cli","reference":"0.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-console-clear-1.1.1-995e20cbfbf14dd792b672cde387bd128d674bf7/node_modules/console-clear/", {"name":"console-clear","reference":"1.1.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-get-port-3.2.0-dd7ce7de187c06c8bf353796ac71e099f0980ebc/node_modules/get-port/", {"name":"get-port","reference":"3.2.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-local-access-1.0.1-5121258146d64e869046c642ea4f1dd39ff942bb/node_modules/local-access/", {"name":"local-access","reference":"1.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-sade-1.4.2-b1946ef9ec62450b74e17d9fec30156c94f193a6/node_modules/sade/", {"name":"sade","reference":"1.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-mri-1.1.4-7cb1dd1b9b40905f1fac053abe25b6720f44744a/node_modules/mri/", {"name":"mri","reference":"1.1.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/", {"name":"sirv","reference":"0.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/", {"name":"@polka/url","reference":"0.5.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-tinydate-1.0.1-5e38797e2e3e79ce2300543f586c6caa2dfcf668/node_modules/tinydate/", {"name":"tinydate","reference":"1.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/", {"name":"svelte","reference":"3.4.2"}],
   ["./videos/what-is-react-ink/", {"name":"what-is-react-ink","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-ink-2.1.1-efb2adbd30be79b4f640d7c67b524bfb030205ba/node_modules/ink/", {"name":"ink","reference":"2.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-@types-react-16.8.18-fe66fb748b0b6ca9709d38b87b2d1356d960a511/node_modules/@types/react/", {"name":"@types/react","reference":"16.8.18"}],
@@ -17663,6 +18307,10 @@ exports.findPackageLocator = function findPackageLocator(location) {
 
   if (relativeLocation.length >= 27 && relativeLocation[26] === '/')
     if (match = locatorsByLocations.get(relativeLocation.substr(0, 27)))
+      return blacklistCheck(match);
+
+  if (relativeLocation.length >= 25 && relativeLocation[24] === '/')
+    if (match = locatorsByLocations.get(relativeLocation.substr(0, 25)))
       return blacklistCheck(match);
 
   if (relativeLocation.length >= 21 && relativeLocation[20] === '/')
