@@ -7842,6 +7842,13 @@ let packageInformationStores = new Map([
         ["ajv-keywords", "pnp:e5fe9194d4e2e72d5ca30018a0eabeec90fc63af"],
       ]),
     }],
+    ["pnp:6e0de3933cd7fb2fb8ae16828aeb5e2990697568", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-6e0de3933cd7fb2fb8ae16828aeb5e2990697568/node_modules/ajv-keywords/"),
+      packageDependencies: new Map([
+        ["ajv", "6.10.0"],
+        ["ajv-keywords", "pnp:6e0de3933cd7fb2fb8ae16828aeb5e2990697568"],
+      ]),
+    }],
   ])],
   ["dotenv", new Map([
     ["6.2.0", {
@@ -8838,6 +8845,19 @@ let packageInformationStores = new Map([
         ["html-minifier", "3.5.21"],
       ]),
     }],
+    ["4.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-html-minifier-4.0.0-cca9aad8bce1175e02e17a8c33e46d8988889f56/node_modules/html-minifier/"),
+      packageDependencies: new Map([
+        ["camel-case", "3.0.0"],
+        ["clean-css", "4.2.1"],
+        ["commander", "2.20.0"],
+        ["he", "1.2.0"],
+        ["param-case", "2.1.1"],
+        ["relateurl", "0.2.7"],
+        ["uglify-js", "3.6.0"],
+        ["html-minifier", "4.0.0"],
+      ]),
+    }],
   ])],
   ["camel-case", new Map([
     ["3.0.0", {
@@ -8923,6 +8943,14 @@ let packageInformationStores = new Map([
         ["commander", "2.20.0"],
         ["source-map", "0.6.1"],
         ["uglify-js", "3.5.15"],
+      ]),
+    }],
+    ["3.6.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-uglify-js-3.6.0-704681345c53a8b2079fb6cec294b05ead242ff5/node_modules/uglify-js/"),
+      packageDependencies: new Map([
+        ["commander", "2.20.0"],
+        ["source-map", "0.6.1"],
+        ["uglify-js", "3.6.0"],
       ]),
     }],
   ])],
@@ -12726,8 +12754,8 @@ let packageInformationStores = new Map([
         ["terser-webpack-plugin", "pnp:4dd8294c6a8649176d178550f8464bef50202fb3"],
       ]),
     }],
-    ["1.2.4", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-terser-webpack-plugin-1.2.4-56f87540c28dd5265753431009388f473b5abba3/node_modules/terser-webpack-plugin/"),
+    ["pnp:88ba70fb109f49d64767f55b9422499ce1d05f77", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-88ba70fb109f49d64767f55b9422499ce1d05f77/node_modules/terser-webpack-plugin/"),
       packageDependencies: new Map([
         ["cacache", "11.3.2"],
         ["find-cache-dir", "2.1.0"],
@@ -12738,7 +12766,22 @@ let packageInformationStores = new Map([
         ["terser", "3.17.0"],
         ["webpack-sources", "1.3.0"],
         ["worker-farm", "1.7.0"],
-        ["terser-webpack-plugin", "1.2.4"],
+        ["terser-webpack-plugin", "pnp:88ba70fb109f49d64767f55b9422499ce1d05f77"],
+      ]),
+    }],
+    ["pnp:8e4ebbd31fd8c26a7542acad855e50f4edda7b87", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-8e4ebbd31fd8c26a7542acad855e50f4edda7b87/node_modules/terser-webpack-plugin/"),
+      packageDependencies: new Map([
+        ["cacache", "11.3.2"],
+        ["find-cache-dir", "2.1.0"],
+        ["is-wsl", "1.1.0"],
+        ["schema-utils", "1.0.0"],
+        ["serialize-javascript", "1.7.0"],
+        ["source-map", "0.6.1"],
+        ["terser", "3.17.0"],
+        ["webpack-sources", "1.3.0"],
+        ["worker-farm", "1.7.0"],
+        ["terser-webpack-plugin", "pnp:8e4ebbd31fd8c26a7542acad855e50f4edda7b87"],
       ]),
     }],
     ["pnp:27f40fa2332532e32b41afe98d4407994ce11471", {
@@ -13114,7 +13157,7 @@ let packageInformationStores = new Map([
         ["@webassemblyjs/wasm-edit", "1.8.5"],
         ["@webassemblyjs/wasm-parser", "1.8.5"],
         ["acorn", "6.1.1"],
-        ["acorn-dynamic-import", "4.0.0"],
+        ["acorn-dynamic-import", "pnp:c2e304ec436dfd008895c85f6254980ccdf670e6"],
         ["ajv", "6.10.0"],
         ["ajv-keywords", "pnp:e5fe9194d4e2e72d5ca30018a0eabeec90fc63af"],
         ["chrome-trace-event", "1.0.0"],
@@ -13130,10 +13173,40 @@ let packageInformationStores = new Map([
         ["node-libs-browser", "2.2.0"],
         ["schema-utils", "1.0.0"],
         ["tapable", "1.1.3"],
-        ["terser-webpack-plugin", "1.2.4"],
+        ["terser-webpack-plugin", "pnp:88ba70fb109f49d64767f55b9422499ce1d05f77"],
         ["watchpack", "1.6.0"],
         ["webpack-sources", "1.3.0"],
         ["webpack", "4.29.6"],
+      ]),
+    }],
+    ["4.32.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-webpack-4.32.2-3639375364a617e84b914ddb2c770aed511e5bc8/node_modules/webpack/"),
+      packageDependencies: new Map([
+        ["@webassemblyjs/ast", "1.8.5"],
+        ["@webassemblyjs/helper-module-context", "1.8.5"],
+        ["@webassemblyjs/wasm-edit", "1.8.5"],
+        ["@webassemblyjs/wasm-parser", "1.8.5"],
+        ["acorn", "6.1.1"],
+        ["acorn-dynamic-import", "pnp:4c820a43277258a9f7f3b4108e014c2bc65b376f"],
+        ["ajv", "6.10.0"],
+        ["ajv-keywords", "pnp:6e0de3933cd7fb2fb8ae16828aeb5e2990697568"],
+        ["chrome-trace-event", "1.0.0"],
+        ["enhanced-resolve", "4.1.0"],
+        ["eslint-scope", "4.0.3"],
+        ["json-parse-better-errors", "1.0.2"],
+        ["loader-runner", "2.4.0"],
+        ["loader-utils", "1.2.3"],
+        ["memory-fs", "0.4.1"],
+        ["micromatch", "3.1.10"],
+        ["mkdirp", "0.5.1"],
+        ["neo-async", "2.6.1"],
+        ["node-libs-browser", "2.2.0"],
+        ["schema-utils", "1.0.0"],
+        ["tapable", "1.1.3"],
+        ["terser-webpack-plugin", "pnp:8e4ebbd31fd8c26a7542acad855e50f4edda7b87"],
+        ["watchpack", "1.6.0"],
+        ["webpack-sources", "1.3.0"],
+        ["webpack", "4.32.2"],
       ]),
     }],
   ])],
@@ -13350,11 +13423,18 @@ let packageInformationStores = new Map([
     }],
   ])],
   ["acorn-dynamic-import", new Map([
-    ["4.0.0", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-acorn-dynamic-import-4.0.0-482210140582a36b83c3e342e1cfebcaa9240948/node_modules/acorn-dynamic-import/"),
+    ["pnp:c2e304ec436dfd008895c85f6254980ccdf670e6", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-c2e304ec436dfd008895c85f6254980ccdf670e6/node_modules/acorn-dynamic-import/"),
       packageDependencies: new Map([
         ["acorn", "6.1.1"],
-        ["acorn-dynamic-import", "4.0.0"],
+        ["acorn-dynamic-import", "pnp:c2e304ec436dfd008895c85f6254980ccdf670e6"],
+      ]),
+    }],
+    ["pnp:4c820a43277258a9f7f3b4108e014c2bc65b376f", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-4c820a43277258a9f7f3b4108e014c2bc65b376f/node_modules/acorn-dynamic-import/"),
+      packageDependencies: new Map([
+        ["acorn", "6.1.1"],
+        ["acorn-dynamic-import", "pnp:4c820a43277258a9f7f3b4108e014c2bc65b376f"],
       ]),
     }],
   ])],
@@ -15362,19 +15442,72 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["svelte-learning", new Map([
-    ["1.0.0", {
-      packageLocation: path.resolve(__dirname, "./videos/svelte-learning/"),
+  ["TODO", new Map([
+    ["0.0.1", {
+      packageLocation: path.resolve(__dirname, "./videos/sapper-is-dapper/"),
       packageDependencies: new Map([
+        ["compression", "1.7.4"],
+        ["polka", "0.5.2"],
+        ["sirv", "0.4.2"],
         ["npm-run-all", "4.1.5"],
-        ["rollup", "1.12.3"],
-        ["rollup-plugin-commonjs", "9.3.4"],
-        ["rollup-plugin-livereload", "1.0.0"],
-        ["rollup-plugin-node-resolve", "4.2.4"],
-        ["rollup-plugin-svelte", "5.0.3"],
-        ["rollup-plugin-terser", "4.0.4"],
-        ["sirv-cli", "0.4.2"],
+        ["sapper", "0.27.1"],
         ["svelte", "3.4.2"],
+        ["svelte-loader", "2.13.4"],
+        ["webpack", "4.32.2"],
+      ]),
+    }],
+  ])],
+  ["polka", new Map([
+    ["0.5.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-polka-0.5.2-588bee0c5806dbc6c64958de3a1251860e9f2e26/node_modules/polka/"),
+      packageDependencies: new Map([
+        ["@polka/url", "0.5.0"],
+        ["trouter", "2.0.1"],
+        ["polka", "0.5.2"],
+      ]),
+    }],
+  ])],
+  ["@polka/url", new Map([
+    ["0.5.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/"),
+      packageDependencies: new Map([
+        ["@polka/url", "0.5.0"],
+      ]),
+    }],
+  ])],
+  ["trouter", new Map([
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-trouter-2.0.1-2726a5f8558e090d24c3a393f09eaab1df232df6/node_modules/trouter/"),
+      packageDependencies: new Map([
+        ["matchit", "1.0.8"],
+        ["trouter", "2.0.1"],
+      ]),
+    }],
+  ])],
+  ["matchit", new Map([
+    ["1.0.8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-matchit-1.0.8-9a129e38f79b2053dd75339215b19e1f6bb88efb/node_modules/matchit/"),
+      packageDependencies: new Map([
+        ["@arr/every", "1.0.0"],
+        ["matchit", "1.0.8"],
+      ]),
+    }],
+  ])],
+  ["@arr/every", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@arr-every-1.0.0-314f8168f50ae48a032cfdad5fdb436f464a97ac/node_modules/@arr/every/"),
+      packageDependencies: new Map([
+        ["@arr/every", "1.0.0"],
+      ]),
+    }],
+  ])],
+  ["sirv", new Map([
+    ["0.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/"),
+      packageDependencies: new Map([
+        ["@polka/url", "0.5.0"],
+        ["mime", "2.4.3"],
+        ["sirv", "0.4.2"],
       ]),
     }],
   ])],
@@ -15419,6 +15552,95 @@ let packageInformationStores = new Map([
         ["es-abstract", "1.13.0"],
         ["function-bind", "1.1.1"],
         ["string.prototype.padend", "3.0.0"],
+      ]),
+    }],
+  ])],
+  ["sapper", new Map([
+    ["0.27.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sapper-0.27.1-2d037cd7eed759eb5d7bbe2ff6f24c5819dded5c/node_modules/sapper/"),
+      packageDependencies: new Map([
+        ["svelte", "3.4.2"],
+        ["html-minifier", "4.0.0"],
+        ["http-link-header", "1.0.2"],
+        ["shimport", "1.0.0"],
+        ["sourcemap-codec", "1.4.4"],
+        ["string-hash", "1.1.3"],
+        ["sapper", "0.27.1"],
+      ]),
+    }],
+  ])],
+  ["http-link-header", new Map([
+    ["1.0.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-http-link-header-1.0.2-bea50f02e1c7996021f1013b428c63f77e0f4e11/node_modules/http-link-header/"),
+      packageDependencies: new Map([
+        ["http-link-header", "1.0.2"],
+      ]),
+    }],
+  ])],
+  ["shimport", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-shimport-1.0.0-02eba44d3a31a413ef8565d601556d525f333ad6/node_modules/shimport/"),
+      packageDependencies: new Map([
+        ["shimport", "1.0.0"],
+      ]),
+    }],
+  ])],
+  ["sourcemap-codec", new Map([
+    ["1.4.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/"),
+      packageDependencies: new Map([
+        ["sourcemap-codec", "1.4.4"],
+      ]),
+    }],
+  ])],
+  ["string-hash", new Map([
+    ["1.1.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-string-hash-1.1.3-e8aafc0ac1855b4666929ed7dd1275df5d6c811b/node_modules/string-hash/"),
+      packageDependencies: new Map([
+        ["string-hash", "1.1.3"],
+      ]),
+    }],
+  ])],
+  ["svelte", new Map([
+    ["3.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/"),
+      packageDependencies: new Map([
+        ["svelte", "3.4.2"],
+      ]),
+    }],
+  ])],
+  ["svelte-loader", new Map([
+    ["2.13.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-svelte-loader-2.13.4-f44b33583fb580f1d9d11016e9531dafa296bb51/node_modules/svelte-loader/"),
+      packageDependencies: new Map([
+        ["svelte", "3.4.2"],
+        ["loader-utils", "1.2.3"],
+        ["svelte-dev-helper", "1.1.9"],
+        ["svelte-loader", "2.13.4"],
+      ]),
+    }],
+  ])],
+  ["svelte-dev-helper", new Map([
+    ["1.1.9", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-svelte-dev-helper-1.1.9-7d187db5c6cdbbd64d75a32f91b8998bde3273c3/node_modules/svelte-dev-helper/"),
+      packageDependencies: new Map([
+        ["svelte-dev-helper", "1.1.9"],
+      ]),
+    }],
+  ])],
+  ["svelte-learning", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "./videos/svelte-learning/"),
+      packageDependencies: new Map([
+        ["npm-run-all", "4.1.5"],
+        ["rollup", "1.12.3"],
+        ["rollup-plugin-commonjs", "9.3.4"],
+        ["rollup-plugin-livereload", "1.0.0"],
+        ["rollup-plugin-node-resolve", "4.2.4"],
+        ["rollup-plugin-svelte", "5.0.3"],
+        ["rollup-plugin-terser", "4.0.4"],
+        ["sirv-cli", "0.4.2"],
+        ["svelte", "3.4.2"],
       ]),
     }],
   ])],
@@ -15468,14 +15690,6 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["sourcemap-codec", "1.4.4"],
         ["magic-string", "0.25.2"],
-      ]),
-    }],
-  ])],
-  ["sourcemap-codec", new Map([
-    ["1.4.4", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/"),
-      packageDependencies: new Map([
-        ["sourcemap-codec", "1.4.4"],
       ]),
     }],
   ])],
@@ -15779,37 +15993,11 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["sirv", new Map([
-    ["0.4.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/"),
-      packageDependencies: new Map([
-        ["@polka/url", "0.5.0"],
-        ["mime", "2.4.3"],
-        ["sirv", "0.4.2"],
-      ]),
-    }],
-  ])],
-  ["@polka/url", new Map([
-    ["0.5.0", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/"),
-      packageDependencies: new Map([
-        ["@polka/url", "0.5.0"],
-      ]),
-    }],
-  ])],
   ["tinydate", new Map([
     ["1.0.1", {
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tinydate-1.0.1-5e38797e2e3e79ce2300543f586c6caa2dfcf668/node_modules/tinydate/"),
       packageDependencies: new Map([
         ["tinydate", "1.0.1"],
-      ]),
-    }],
-  ])],
-  ["svelte", new Map([
-    ["3.4.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/"),
-      packageDependencies: new Map([
-        ["svelte", "3.4.2"],
       ]),
     }],
   ])],
@@ -16057,6 +16245,7 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "./"),
       packageDependencies: new Map([
         ["react-demos", "0.1.0"],
+        ["TODO", "0.0.1"],
         ["svelte-learning", "1.0.0"],
         ["what-is-react-ink", "1.0.0"],
         ["why-i-love-usereducer", "0.1.0"],
@@ -16219,7 +16408,12 @@ let locatorsByLocations = new Map([
   ["./.pnp/externals/pnp-f6049d0acdf32fc29527c054c758a39b32f25a0f/node_modules/request-promise-native/", blacklistedLocator],
   ["./.pnp/externals/pnp-89e8f10be5e00109bd3b27f9827ce07edcc8dd10/node_modules/jest-pnp-resolver/", blacklistedLocator],
   ["./.pnp/externals/pnp-53c15318f74062a7734f8f14e99ff9849c93c0fe/node_modules/ts-pnp/", blacklistedLocator],
+  ["./.pnp/externals/pnp-c2e304ec436dfd008895c85f6254980ccdf670e6/node_modules/acorn-dynamic-import/", blacklistedLocator],
   ["./.pnp/externals/pnp-e5fe9194d4e2e72d5ca30018a0eabeec90fc63af/node_modules/ajv-keywords/", blacklistedLocator],
+  ["./.pnp/externals/pnp-88ba70fb109f49d64767f55b9422499ce1d05f77/node_modules/terser-webpack-plugin/", blacklistedLocator],
+  ["./.pnp/externals/pnp-4c820a43277258a9f7f3b4108e014c2bc65b376f/node_modules/acorn-dynamic-import/", blacklistedLocator],
+  ["./.pnp/externals/pnp-6e0de3933cd7fb2fb8ae16828aeb5e2990697568/node_modules/ajv-keywords/", blacklistedLocator],
+  ["./.pnp/externals/pnp-8e4ebbd31fd8c26a7542acad855e50f4edda7b87/node_modules/terser-webpack-plugin/", blacklistedLocator],
   ["./.pnp/externals/pnp-838a4b7fc047f4eabce0b796e0868a2e36a502b8/node_modules/@babel/preset-env/", blacklistedLocator],
   ["./.pnp/externals/pnp-011edf58914e2d0fb320bcc293ffe582da1fb6f1/node_modules/@babel/preset-react/", blacklistedLocator],
   ["./.pnp/externals/pnp-684ccc47f944025d6a33e19a932cbd0bd27a58c3/node_modules/@babel/plugin-proposal-async-generator-functions/", blacklistedLocator],
@@ -17155,6 +17349,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-ajv-errors-1.0.1-f35986aceb91afadec4102fbd85014950cefa64d/node_modules/ajv-errors/", {"name":"ajv-errors","reference":"1.0.1"}],
   ["./.pnp/externals/pnp-b8e96e43c82094457eafe73a01fd97054c95b71e/node_modules/ajv-keywords/", {"name":"ajv-keywords","reference":"pnp:b8e96e43c82094457eafe73a01fd97054c95b71e"}],
   ["./.pnp/externals/pnp-e5fe9194d4e2e72d5ca30018a0eabeec90fc63af/node_modules/ajv-keywords/", {"name":"ajv-keywords","reference":"pnp:e5fe9194d4e2e72d5ca30018a0eabeec90fc63af"}],
+  ["./.pnp/externals/pnp-6e0de3933cd7fb2fb8ae16828aeb5e2990697568/node_modules/ajv-keywords/", {"name":"ajv-keywords","reference":"pnp:6e0de3933cd7fb2fb8ae16828aeb5e2990697568"}],
   ["../../Library/Caches/Yarn/v4/npm-dotenv-6.2.0-941c0410535d942c8becf28d3f357dbd9d476064/node_modules/dotenv/", {"name":"dotenv","reference":"6.2.0"}],
   ["../../Library/Caches/Yarn/v4/npm-dotenv-expand-4.2.0-def1f1ca5d6059d24a766e587942c21106ce1275/node_modules/dotenv-expand/", {"name":"dotenv-expand","reference":"4.2.0"}],
   ["../../Library/Caches/Yarn/v4/npm-eslint-5.16.0-a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea/node_modules/eslint/", {"name":"eslint","reference":"5.16.0"}],
@@ -17253,6 +17448,7 @@ let locatorsByLocations = new Map([
   ["./.pnp/externals/pnp-8ee2b12a19a1900ce7f9c9c7b6f974ce9f8b63ef/node_modules/html-webpack-plugin/", {"name":"html-webpack-plugin","reference":"pnp:8ee2b12a19a1900ce7f9c9c7b6f974ce9f8b63ef"}],
   ["./.pnp/externals/pnp-ec105307b8d8928a0ee956fd4bb084fb6e34c71d/node_modules/html-webpack-plugin/", {"name":"html-webpack-plugin","reference":"pnp:ec105307b8d8928a0ee956fd4bb084fb6e34c71d"}],
   ["../../Library/Caches/Yarn/v4/npm-html-minifier-3.5.21-d0040e054730e354db008463593194015212d20c/node_modules/html-minifier/", {"name":"html-minifier","reference":"3.5.21"}],
+  ["../../Library/Caches/Yarn/v4/npm-html-minifier-4.0.0-cca9aad8bce1175e02e17a8c33e46d8988889f56/node_modules/html-minifier/", {"name":"html-minifier","reference":"4.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-camel-case-3.0.0-ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73/node_modules/camel-case/", {"name":"camel-case","reference":"3.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-no-case-2.3.2-60b813396be39b3f1288a4c1ed5d1e7d28b464ac/node_modules/no-case/", {"name":"no-case","reference":"2.3.2"}],
   ["../../Library/Caches/Yarn/v4/npm-lower-case-1.1.4-9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac/node_modules/lower-case/", {"name":"lower-case","reference":"1.1.4"}],
@@ -17263,6 +17459,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-relateurl-0.2.7-54dbf377e51440aca90a4cd274600d3ff2d888a9/node_modules/relateurl/", {"name":"relateurl","reference":"0.2.7"}],
   ["../../Library/Caches/Yarn/v4/npm-uglify-js-3.4.10-9ad9563d8eb3acdfb8d38597d2af1d815f6a755f/node_modules/uglify-js/", {"name":"uglify-js","reference":"3.4.10"}],
   ["../../Library/Caches/Yarn/v4/npm-uglify-js-3.5.15-fe2b5378fd0b09e116864041437bff889105ce24/node_modules/uglify-js/", {"name":"uglify-js","reference":"3.5.15"}],
+  ["../../Library/Caches/Yarn/v4/npm-uglify-js-3.6.0-704681345c53a8b2079fb6cec294b05ead242ff5/node_modules/uglify-js/", {"name":"uglify-js","reference":"3.6.0"}],
   ["../../Library/Caches/Yarn/v4/npm-pretty-error-2.1.1-5f4f87c8f91e5ae3f3ba87ab4cf5e03b1a17f1a3/node_modules/pretty-error/", {"name":"pretty-error","reference":"2.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-renderkid-2.0.3-380179c2ff5ae1365c522bf2fcfcff01c5b74149/node_modules/renderkid/", {"name":"renderkid","reference":"2.0.3"}],
   ["../../Library/Caches/Yarn/v4/npm-dom-converter-0.2.0-6721a9daee2e293682955b6afe416771627bb768/node_modules/dom-converter/", {"name":"dom-converter","reference":"0.2.0"}],
@@ -17632,7 +17829,8 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-lodash-tail-4.1.1-d2333a36d9e7717c8ad2f7cacafec7c32b444664/node_modules/lodash.tail/", {"name":"lodash.tail","reference":"4.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-style-loader-0.23.1-cb9154606f3e771ab6c4ab637026a1049174d925/node_modules/style-loader/", {"name":"style-loader","reference":"0.23.1"}],
   ["./.pnp/externals/pnp-4dd8294c6a8649176d178550f8464bef50202fb3/node_modules/terser-webpack-plugin/", {"name":"terser-webpack-plugin","reference":"pnp:4dd8294c6a8649176d178550f8464bef50202fb3"}],
-  ["../../Library/Caches/Yarn/v4/npm-terser-webpack-plugin-1.2.4-56f87540c28dd5265753431009388f473b5abba3/node_modules/terser-webpack-plugin/", {"name":"terser-webpack-plugin","reference":"1.2.4"}],
+  ["./.pnp/externals/pnp-88ba70fb109f49d64767f55b9422499ce1d05f77/node_modules/terser-webpack-plugin/", {"name":"terser-webpack-plugin","reference":"pnp:88ba70fb109f49d64767f55b9422499ce1d05f77"}],
+  ["./.pnp/externals/pnp-8e4ebbd31fd8c26a7542acad855e50f4edda7b87/node_modules/terser-webpack-plugin/", {"name":"terser-webpack-plugin","reference":"pnp:8e4ebbd31fd8c26a7542acad855e50f4edda7b87"}],
   ["./.pnp/externals/pnp-27f40fa2332532e32b41afe98d4407994ce11471/node_modules/terser-webpack-plugin/", {"name":"terser-webpack-plugin","reference":"pnp:27f40fa2332532e32b41afe98d4407994ce11471"}],
   ["../../Library/Caches/Yarn/v4/npm-cacache-11.3.2-2d81e308e3d258ca38125b676b98b2ac9ce69bfa/node_modules/cacache/", {"name":"cacache","reference":"11.3.2"}],
   ["../../Library/Caches/Yarn/v4/npm-bluebird-3.5.4-d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714/node_modules/bluebird/", {"name":"bluebird","reference":"3.5.4"}],
@@ -17669,6 +17867,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-mime-2.4.3-229687331e86f68924e6cb59e1cdd937f18275fe/node_modules/mime/", {"name":"mime","reference":"2.4.3"}],
   ["../../Library/Caches/Yarn/v4/npm-mime-1.6.0-32cd9e5c64553bd58d19a568af452acff04981b1/node_modules/mime/", {"name":"mime","reference":"1.6.0"}],
   ["../../Library/Caches/Yarn/v4/npm-webpack-4.29.6-66bf0ec8beee4d469f8b598d3988ff9d8d90e955/node_modules/webpack/", {"name":"webpack","reference":"4.29.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-webpack-4.32.2-3639375364a617e84b914ddb2c770aed511e5bc8/node_modules/webpack/", {"name":"webpack","reference":"4.32.2"}],
   ["../../Library/Caches/Yarn/v4/npm-@webassemblyjs-ast-1.8.5-51b1c5fe6576a34953bf4b253df9f0d490d9e359/node_modules/@webassemblyjs/ast/", {"name":"@webassemblyjs/ast","reference":"1.8.5"}],
   ["../../Library/Caches/Yarn/v4/npm-@webassemblyjs-helper-module-context-1.8.5-def4b9927b0101dc8cbbd8d1edb5b7b9c82eb245/node_modules/@webassemblyjs/helper-module-context/", {"name":"@webassemblyjs/helper-module-context","reference":"1.8.5"}],
   ["../../Library/Caches/Yarn/v4/npm-mamacro-0.0.3-ad2c9576197c9f1abf308d0787865bd975a3f3e4/node_modules/mamacro/", {"name":"mamacro","reference":"0.0.3"}],
@@ -17690,7 +17889,8 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-@webassemblyjs-utf8-1.8.5-a8bf3b5d8ffe986c7c1e373ccbdc2a0915f0cedc/node_modules/@webassemblyjs/utf8/", {"name":"@webassemblyjs/utf8","reference":"1.8.5"}],
   ["../../Library/Caches/Yarn/v4/npm-@webassemblyjs-wasm-opt-1.8.5-b24d9f6ba50394af1349f510afa8ffcb8a63d264/node_modules/@webassemblyjs/wasm-opt/", {"name":"@webassemblyjs/wasm-opt","reference":"1.8.5"}],
   ["../../Library/Caches/Yarn/v4/npm-@webassemblyjs-wasm-parser-1.8.5-21576f0ec88b91427357b8536383668ef7c66b8d/node_modules/@webassemblyjs/wasm-parser/", {"name":"@webassemblyjs/wasm-parser","reference":"1.8.5"}],
-  ["../../Library/Caches/Yarn/v4/npm-acorn-dynamic-import-4.0.0-482210140582a36b83c3e342e1cfebcaa9240948/node_modules/acorn-dynamic-import/", {"name":"acorn-dynamic-import","reference":"4.0.0"}],
+  ["./.pnp/externals/pnp-c2e304ec436dfd008895c85f6254980ccdf670e6/node_modules/acorn-dynamic-import/", {"name":"acorn-dynamic-import","reference":"pnp:c2e304ec436dfd008895c85f6254980ccdf670e6"}],
+  ["./.pnp/externals/pnp-4c820a43277258a9f7f3b4108e014c2bc65b376f/node_modules/acorn-dynamic-import/", {"name":"acorn-dynamic-import","reference":"pnp:4c820a43277258a9f7f3b4108e014c2bc65b376f"}],
   ["../../Library/Caches/Yarn/v4/npm-chrome-trace-event-1.0.0-45a91bd2c20c9411f0963b5aaeb9a1b95e09cc48/node_modules/chrome-trace-event/", {"name":"chrome-trace-event","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-enhanced-resolve-4.1.0-41c7e0bfdfe74ac1ffe1e57ad6a5c6c9f3742a7f/node_modules/enhanced-resolve/", {"name":"enhanced-resolve","reference":"4.1.0"}],
   ["../../Library/Caches/Yarn/v4/npm-memory-fs-0.4.1-3a9a20b8462523e447cfbc7e8bb80ed667bfc552/node_modules/memory-fs/", {"name":"memory-fs","reference":"0.4.1"}],
@@ -17888,17 +18088,31 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-workbox-streams-4.3.1-0b57da70e982572de09c8742dd0cb40a6b7c2cc3/node_modules/workbox-streams/", {"name":"workbox-streams","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-sw-4.3.1-df69e395c479ef4d14499372bcd84c0f5e246164/node_modules/workbox-sw/", {"name":"workbox-sw","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-window-4.3.1-ee6051bf10f06afa5483c9b8dfa0531994ede0f3/node_modules/workbox-window/", {"name":"workbox-window","reference":"4.3.1"}],
-  ["./videos/svelte-learning/", {"name":"svelte-learning","reference":"1.0.0"}],
+  ["./videos/sapper-is-dapper/", {"name":"TODO","reference":"0.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-polka-0.5.2-588bee0c5806dbc6c64958de3a1251860e9f2e26/node_modules/polka/", {"name":"polka","reference":"0.5.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/", {"name":"@polka/url","reference":"0.5.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-trouter-2.0.1-2726a5f8558e090d24c3a393f09eaab1df232df6/node_modules/trouter/", {"name":"trouter","reference":"2.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-matchit-1.0.8-9a129e38f79b2053dd75339215b19e1f6bb88efb/node_modules/matchit/", {"name":"matchit","reference":"1.0.8"}],
+  ["../../Library/Caches/Yarn/v4/npm-@arr-every-1.0.0-314f8168f50ae48a032cfdad5fdb436f464a97ac/node_modules/@arr/every/", {"name":"@arr/every","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/", {"name":"sirv","reference":"0.4.2"}],
   ["../../Library/Caches/Yarn/v4/npm-npm-run-all-4.1.5-04476202a15ee0e2e214080861bff12a51d98fba/node_modules/npm-run-all/", {"name":"npm-run-all","reference":"4.1.5"}],
   ["../../Library/Caches/Yarn/v4/npm-memorystream-0.3.1-86d7090b30ce455d63fbae12dda51a47ddcaf9b2/node_modules/memorystream/", {"name":"memorystream","reference":"0.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-pidtree-0.3.0-f6fada10fccc9f99bf50e90d0b23d72c9ebc2e6b/node_modules/pidtree/", {"name":"pidtree","reference":"0.3.0"}],
   ["../../Library/Caches/Yarn/v4/npm-string-prototype-padend-3.0.0-f3aaef7c1719f170c5eab1c32bf780d96e21f2f0/node_modules/string.prototype.padend/", {"name":"string.prototype.padend","reference":"3.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-sapper-0.27.1-2d037cd7eed759eb5d7bbe2ff6f24c5819dded5c/node_modules/sapper/", {"name":"sapper","reference":"0.27.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-http-link-header-1.0.2-bea50f02e1c7996021f1013b428c63f77e0f4e11/node_modules/http-link-header/", {"name":"http-link-header","reference":"1.0.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-shimport-1.0.0-02eba44d3a31a413ef8565d601556d525f333ad6/node_modules/shimport/", {"name":"shimport","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/", {"name":"sourcemap-codec","reference":"1.4.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-string-hash-1.1.3-e8aafc0ac1855b4666929ed7dd1275df5d6c811b/node_modules/string-hash/", {"name":"string-hash","reference":"1.1.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/", {"name":"svelte","reference":"3.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-svelte-loader-2.13.4-f44b33583fb580f1d9d11016e9531dafa296bb51/node_modules/svelte-loader/", {"name":"svelte-loader","reference":"2.13.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-svelte-dev-helper-1.1.9-7d187db5c6cdbbd64d75a32f91b8998bde3273c3/node_modules/svelte-dev-helper/", {"name":"svelte-dev-helper","reference":"1.1.9"}],
+  ["./videos/svelte-learning/", {"name":"svelte-learning","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-rollup-1.12.3-068b1957d5bebf6c0a758cfe42609b512add35a9/node_modules/rollup/", {"name":"rollup","reference":"1.12.3"}],
   ["../../Library/Caches/Yarn/v4/npm-@types-estree-0.0.39-e177e699ee1b8c22d23174caaa7422644389509f/node_modules/@types/estree/", {"name":"@types/estree","reference":"0.0.39"}],
   ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-commonjs-9.3.4-2b3dddbbbded83d45c36ff101cdd29e924fd23bc/node_modules/rollup-plugin-commonjs/", {"name":"rollup-plugin-commonjs","reference":"9.3.4"}],
   ["../../Library/Caches/Yarn/v4/npm-estree-walker-0.6.0-5d865327c44a618dde5699f763891ae31f257dae/node_modules/estree-walker/", {"name":"estree-walker","reference":"0.6.0"}],
   ["../../Library/Caches/Yarn/v4/npm-magic-string-0.25.2-139c3a729515ec55e96e69e82a11fe890a293ad9/node_modules/magic-string/", {"name":"magic-string","reference":"0.25.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-sourcemap-codec-1.4.4-c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f/node_modules/sourcemap-codec/", {"name":"sourcemap-codec","reference":"1.4.4"}],
   ["../../Library/Caches/Yarn/v4/npm-rollup-pluginutils-2.7.1-a7915ce8b12c177364784bf38a1590cc6c2c8250/node_modules/rollup-pluginutils/", {"name":"rollup-pluginutils","reference":"2.7.1"}],
   ["../../Library/Caches/Yarn/v4/npm-rollup-plugin-livereload-1.0.0-7ebaeea382019037e21265cd49942122281d5646/node_modules/rollup-plugin-livereload/", {"name":"rollup-plugin-livereload","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-livereload-0.7.0-38238dd155ffb251191697f737b6b13f471da115/node_modules/livereload/", {"name":"livereload","reference":"0.7.0"}],
@@ -17931,10 +18145,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-local-access-1.0.1-5121258146d64e869046c642ea4f1dd39ff942bb/node_modules/local-access/", {"name":"local-access","reference":"1.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-sade-1.4.2-b1946ef9ec62450b74e17d9fec30156c94f193a6/node_modules/sade/", {"name":"sade","reference":"1.4.2"}],
   ["../../Library/Caches/Yarn/v4/npm-mri-1.1.4-7cb1dd1b9b40905f1fac053abe25b6720f44744a/node_modules/mri/", {"name":"mri","reference":"1.1.4"}],
-  ["../../Library/Caches/Yarn/v4/npm-sirv-0.4.2-842ed22f3aab58faee84eea66cf66066e123d6db/node_modules/sirv/", {"name":"sirv","reference":"0.4.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/", {"name":"@polka/url","reference":"0.5.0"}],
   ["../../Library/Caches/Yarn/v4/npm-tinydate-1.0.1-5e38797e2e3e79ce2300543f586c6caa2dfcf668/node_modules/tinydate/", {"name":"tinydate","reference":"1.0.1"}],
-  ["../../Library/Caches/Yarn/v4/npm-svelte-3.4.2-55e34d7a53f9a732387dbf0fcb68e2fa4b598c93/node_modules/svelte/", {"name":"svelte","reference":"3.4.2"}],
   ["./videos/what-is-react-ink/", {"name":"what-is-react-ink","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-ink-2.1.1-efb2adbd30be79b4f640d7c67b524bfb030205ba/node_modules/ink/", {"name":"ink","reference":"2.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-@types-react-16.8.18-fe66fb748b0b6ca9709d38b87b2d1356d960a511/node_modules/@types/react/", {"name":"@types/react","reference":"16.8.18"}],
@@ -18307,6 +18518,10 @@ exports.findPackageLocator = function findPackageLocator(location) {
 
   if (relativeLocation.length >= 27 && relativeLocation[26] === '/')
     if (match = locatorsByLocations.get(relativeLocation.substr(0, 27)))
+      return blacklistCheck(match);
+
+  if (relativeLocation.length >= 26 && relativeLocation[25] === '/')
+    if (match = locatorsByLocations.get(relativeLocation.substr(0, 26)))
       return blacklistCheck(match);
 
   if (relativeLocation.length >= 25 && relativeLocation[24] === '/')
