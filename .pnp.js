@@ -97,6 +97,7 @@ let packageInformationStores = new Map([
         ["react", "16.8.6"],
         ["react-dom", "pnp:3dc65079a229aee61f012091a200fb42d9f43240"],
         ["react-scripts", "3.0.1"],
+        ["framer-motion", "1.6.2"],
       ]),
     }],
   ])],
@@ -5151,6 +5152,12 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/"),
       packageDependencies: new Map([
         ["tslib", "1.9.3"],
+      ]),
+    }],
+    ["1.10.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/"),
+      packageDependencies: new Map([
+        ["tslib", "1.10.0"],
       ]),
     }],
   ])],
@@ -15972,6 +15979,97 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
+  ["framer-motion", new Map([
+    ["1.6.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/"),
+      packageDependencies: new Map([
+        ["react", "16.8.6"],
+        ["react-dom", "pnp:3dc65079a229aee61f012091a200fb42d9f43240"],
+        ["@popmotion/easing", "1.0.2"],
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["popmotion", "9.0.0-beta-8"],
+        ["style-value-types", "3.1.6"],
+        ["stylefire", "6.0.9"],
+        ["tslib", "1.10.0"],
+        ["framer-motion", "1.6.2"],
+      ]),
+    }],
+  ])],
+  ["@popmotion/easing", new Map([
+    ["1.0.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+      ]),
+    }],
+  ])],
+  ["@popmotion/popcorn", new Map([
+    ["0.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["@popmotion/popcorn", "0.4.2"],
+      ]),
+    }],
+  ])],
+  ["framesync", new Map([
+    ["4.0.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+        ["tslib", "1.10.0"],
+        ["framesync", "4.0.4"],
+      ]),
+    }],
+  ])],
+  ["hey-listen", new Map([
+    ["1.0.8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+      ]),
+    }],
+  ])],
+  ["style-value-types", new Map([
+    ["3.1.6", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+      ]),
+    }],
+  ])],
+  ["popmotion", new Map([
+    ["9.0.0-beta-8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["tslib", "1.10.0"],
+        ["popmotion", "9.0.0-beta-8"],
+      ]),
+    }],
+  ])],
+  ["stylefire", new Map([
+    ["6.0.9", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/"),
+      packageDependencies: new Map([
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["stylefire", "6.0.9"],
+      ]),
+    }],
+  ])],
   ["TODO", new Map([
     ["0.0.1", {
       packageLocation: path.resolve(__dirname, "./videos/sapper-is-dapper/"),
@@ -16540,12 +16638,53 @@ let packageInformationStores = new Map([
         ["@babel/core", "7.4.5"],
         ["@babel/preset-env", "pnp:ceb9c3dbe58cbaaf3d3aa32d299fee4fda6f6683"],
         ["@babel/preset-react", "pnp:470606b2b2cd47a1f236e72f5e1607d55cc1e46a"],
+        ["@testing-library/react", "8.0.5"],
         ["babel-jest", "pnp:4a62e0eaf5f4c8367852da7bd7b4c9eb1eb8b44e"],
         ["enzyme", "3.10.0"],
         ["enzyme-adapter-react-16", "1.14.0"],
         ["jest", "24.8.0"],
         ["react-test-renderer", "pnp:4887313a3547d3c10f93acee9eb5a04131b31616"],
+      ]),
+    }],
+  ])],
+  ["@testing-library/react", new Map([
+    ["8.0.5", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@testing-library-react-8.0.5-2301011a8c5567eba59691860df19a3cfc9d7425/node_modules/@testing-library/react/"),
+      packageDependencies: new Map([
+        ["react", "16.8.6"],
+        ["react-dom", "pnp:4dc756a90aebf671b7ca570dffad7e4b77d0e07a"],
+        ["@babel/runtime", "7.5.4"],
+        ["@testing-library/dom", "5.6.0"],
         ["@testing-library/react", "8.0.5"],
+      ]),
+    }],
+  ])],
+  ["@testing-library/dom", new Map([
+    ["5.6.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@testing-library-dom-5.6.0-18a7c162a6a79964e731ad7b810022a28218047c/node_modules/@testing-library/dom/"),
+      packageDependencies: new Map([
+        ["@babel/runtime", "7.5.4"],
+        ["@sheerun/mutationobserver-shim", "0.3.2"],
+        ["aria-query", "3.0.0"],
+        ["pretty-format", "24.8.0"],
+        ["wait-for-expect", "1.2.0"],
+        ["@testing-library/dom", "5.6.0"],
+      ]),
+    }],
+  ])],
+  ["@sheerun/mutationobserver-shim", new Map([
+    ["0.3.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@sheerun-mutationobserver-shim-0.3.2-8013f2af54a2b7d735f71560ff360d3a8176a87b/node_modules/@sheerun/mutationobserver-shim/"),
+      packageDependencies: new Map([
+        ["@sheerun/mutationobserver-shim", "0.3.2"],
+      ]),
+    }],
+  ])],
+  ["wait-for-expect", new Map([
+    ["1.2.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-wait-for-expect-1.2.0-fdab6a26e87d2039101db88bff3d8158e5c3e13f/node_modules/wait-for-expect/"),
+      packageDependencies: new Map([
+        ["wait-for-expect", "1.2.0"],
       ]),
     }],
   ])],
@@ -16878,47 +17017,6 @@ let packageInformationStores = new Map([
         ["react-is", "16.8.6"],
         ["scheduler", "0.13.6"],
         ["react-test-renderer", "pnp:4887313a3547d3c10f93acee9eb5a04131b31616"],
-      ]),
-    }],
-  ])],
-  ["@testing-library/react", new Map([
-    ["8.0.5", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@testing-library-react-8.0.5-2301011a8c5567eba59691860df19a3cfc9d7425/node_modules/@testing-library/react/"),
-      packageDependencies: new Map([
-        ["react", "16.8.6"],
-        ["react-dom", "pnp:4dc756a90aebf671b7ca570dffad7e4b77d0e07a"],
-        ["@babel/runtime", "7.5.4"],
-        ["@testing-library/dom", "5.6.0"],
-        ["@testing-library/react", "8.0.5"],
-      ]),
-    }],
-  ])],
-  ["@testing-library/dom", new Map([
-    ["5.6.0", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@testing-library-dom-5.6.0-18a7c162a6a79964e731ad7b810022a28218047c/node_modules/@testing-library/dom/"),
-      packageDependencies: new Map([
-        ["@babel/runtime", "7.5.4"],
-        ["@sheerun/mutationobserver-shim", "0.3.2"],
-        ["aria-query", "3.0.0"],
-        ["pretty-format", "24.8.0"],
-        ["wait-for-expect", "1.2.0"],
-        ["@testing-library/dom", "5.6.0"],
-      ]),
-    }],
-  ])],
-  ["@sheerun/mutationobserver-shim", new Map([
-    ["0.3.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@sheerun-mutationobserver-shim-0.3.2-8013f2af54a2b7d735f71560ff360d3a8176a87b/node_modules/@sheerun/mutationobserver-shim/"),
-      packageDependencies: new Map([
-        ["@sheerun/mutationobserver-shim", "0.3.2"],
-      ]),
-    }],
-  ])],
-  ["wait-for-expect", new Map([
-    ["1.2.0", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-wait-for-expect-1.2.0-fdab6a26e87d2039101db88bff3d8158e5c3e13f/node_modules/wait-for-expect/"),
-      packageDependencies: new Map([
-        ["wait-for-expect", "1.2.0"],
       ]),
     }],
   ])],
@@ -18038,6 +18136,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-requireindex-1.2.0-3463cdb22ee151902635aa6c9535d4de9c2ef1ef/node_modules/requireindex/", {"name":"requireindex","reference":"1.2.0"}],
   ["../../Library/Caches/Yarn/v4/npm-tsutils-3.10.0-6f1c95c94606e098592b0dff06590cf9659227d6/node_modules/tsutils/", {"name":"tsutils","reference":"3.10.0"}],
   ["../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/", {"name":"tslib","reference":"1.9.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/", {"name":"tslib","reference":"1.10.0"}],
   ["./.pnp/externals/pnp-950c757374067ee7984d1d91262c8e39c5db6363/node_modules/babel-eslint/", {"name":"babel-eslint","reference":"pnp:950c757374067ee7984d1d91262c8e39c5db6363"}],
   ["./.pnp/externals/pnp-6c0a96a39fb855669fc5bc9ee606572104d5f3a9/node_modules/babel-eslint/", {"name":"babel-eslint","reference":"pnp:6c0a96a39fb855669fc5bc9ee606572104d5f3a9"}],
   ["./.pnp/externals/pnp-4e7a4e878c7bab48710a5d79654c9609b7e73ecc/node_modules/babel-jest/", {"name":"babel-jest","reference":"pnp:4e7a4e878c7bab48710a5d79654c9609b7e73ecc"}],
@@ -19110,6 +19209,14 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-workbox-streams-4.3.1-0b57da70e982572de09c8742dd0cb40a6b7c2cc3/node_modules/workbox-streams/", {"name":"workbox-streams","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-sw-4.3.1-df69e395c479ef4d14499372bcd84c0f5e246164/node_modules/workbox-sw/", {"name":"workbox-sw","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-window-4.3.1-ee6051bf10f06afa5483c9b8dfa0531994ede0f3/node_modules/workbox-window/", {"name":"workbox-window","reference":"4.3.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/", {"name":"framer-motion","reference":"1.6.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/", {"name":"@popmotion/easing","reference":"1.0.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/", {"name":"@popmotion/popcorn","reference":"0.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/", {"name":"framesync","reference":"4.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/", {"name":"hey-listen","reference":"1.0.8"}],
+  ["../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/", {"name":"style-value-types","reference":"3.1.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/", {"name":"popmotion","reference":"9.0.0-beta-8"}],
+  ["../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/", {"name":"stylefire","reference":"6.0.9"}],
   ["./videos/sapper-is-dapper/", {"name":"TODO","reference":"0.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-polka-0.5.2-588bee0c5806dbc6c64958de3a1251860e9f2e26/node_modules/polka/", {"name":"polka","reference":"0.5.2"}],
   ["../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/", {"name":"@polka/url","reference":"0.5.0"}],
@@ -19169,6 +19276,10 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-mri-1.1.4-7cb1dd1b9b40905f1fac053abe25b6720f44744a/node_modules/mri/", {"name":"mri","reference":"1.1.4"}],
   ["../../Library/Caches/Yarn/v4/npm-tinydate-1.0.1-5e38797e2e3e79ce2300543f586c6caa2dfcf668/node_modules/tinydate/", {"name":"tinydate","reference":"1.0.1"}],
   ["./videos/testing-react-hooks/", {"name":"testing-react-hooks","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-@testing-library-react-8.0.5-2301011a8c5567eba59691860df19a3cfc9d7425/node_modules/@testing-library/react/", {"name":"@testing-library/react","reference":"8.0.5"}],
+  ["../../Library/Caches/Yarn/v4/npm-@testing-library-dom-5.6.0-18a7c162a6a79964e731ad7b810022a28218047c/node_modules/@testing-library/dom/", {"name":"@testing-library/dom","reference":"5.6.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-@sheerun-mutationobserver-shim-0.3.2-8013f2af54a2b7d735f71560ff360d3a8176a87b/node_modules/@sheerun/mutationobserver-shim/", {"name":"@sheerun/mutationobserver-shim","reference":"0.3.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-wait-for-expect-1.2.0-fdab6a26e87d2039101db88bff3d8158e5c3e13f/node_modules/wait-for-expect/", {"name":"wait-for-expect","reference":"1.2.0"}],
   ["../../Library/Caches/Yarn/v4/npm-enzyme-3.10.0-7218e347c4a7746e133f8e964aada4a3523452f6/node_modules/enzyme/", {"name":"enzyme","reference":"3.10.0"}],
   ["../../Library/Caches/Yarn/v4/npm-array-prototype-flat-1.2.1-812db8f02cad24d3fab65dd67eabe3b8903494a4/node_modules/array.prototype.flat/", {"name":"array.prototype.flat","reference":"1.2.1"}],
   ["../../Library/Caches/Yarn/v4/npm-cheerio-1.0.0-rc.3-094636d425b2e9c0f4eb91a46c05630c9a1a8bf6/node_modules/cheerio/", {"name":"cheerio","reference":"1.0.0-rc.3"}],
@@ -19199,10 +19310,6 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-reflect-ownkeys-0.2.0-749aceec7f3fdf8b63f927a04809e90c5c0b3460/node_modules/reflect.ownkeys/", {"name":"reflect.ownkeys","reference":"0.2.0"}],
   ["./.pnp/externals/pnp-71bc49338d7e0c94be2542bffa7460a9c21517f4/node_modules/react-test-renderer/", {"name":"react-test-renderer","reference":"pnp:71bc49338d7e0c94be2542bffa7460a9c21517f4"}],
   ["./.pnp/externals/pnp-4887313a3547d3c10f93acee9eb5a04131b31616/node_modules/react-test-renderer/", {"name":"react-test-renderer","reference":"pnp:4887313a3547d3c10f93acee9eb5a04131b31616"}],
-  ["../../Library/Caches/Yarn/v4/npm-@testing-library-react-8.0.5-2301011a8c5567eba59691860df19a3cfc9d7425/node_modules/@testing-library/react/", {"name":"@testing-library/react","reference":"8.0.5"}],
-  ["../../Library/Caches/Yarn/v4/npm-@testing-library-dom-5.6.0-18a7c162a6a79964e731ad7b810022a28218047c/node_modules/@testing-library/dom/", {"name":"@testing-library/dom","reference":"5.6.0"}],
-  ["../../Library/Caches/Yarn/v4/npm-@sheerun-mutationobserver-shim-0.3.2-8013f2af54a2b7d735f71560ff360d3a8176a87b/node_modules/@sheerun/mutationobserver-shim/", {"name":"@sheerun/mutationobserver-shim","reference":"0.3.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-wait-for-expect-1.2.0-fdab6a26e87d2039101db88bff3d8158e5c3e13f/node_modules/wait-for-expect/", {"name":"wait-for-expect","reference":"1.2.0"}],
   ["./videos/what-is-react-ink/", {"name":"what-is-react-ink","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-ink-2.1.1-efb2adbd30be79b4f640d7c67b524bfb030205ba/node_modules/ink/", {"name":"ink","reference":"2.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-@types-react-16.8.18-fe66fb748b0b6ca9709d38b87b2d1356d960a511/node_modules/@types/react/", {"name":"@types/react","reference":"16.8.18"}],
