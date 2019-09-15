@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './index.css';
 
 import FramerMotion from './demo/framer-motion';
+import AsyncHooks from './demo/async-hooks';
 
 const routes = [
   {
@@ -12,9 +13,9 @@ const routes = [
     component: FramerMotion,
   },
   {
-    path: '/tacos',
-    name: 'Ok',
-    component: () => <div>Yay</div>,
+    path: '/async-hooks',
+    name: 'Async React Hooks',
+    component: AsyncHooks,
   },
 ];
 
