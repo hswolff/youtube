@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, useCycle } from 'framer-motion';
 
 export default function FramerMotion() {
-  const [ySpot, setYSpot] = useState(0);
   const [position, cyclePosition] = useCycle(
     { x: 100, y: 0 },
     { x: 0, y: 100 },

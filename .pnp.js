@@ -94,10 +94,116 @@ let packageInformationStores = new Map([
     ["0.1.0", {
       packageLocation: path.resolve(__dirname, "./videos/react-demos/"),
       packageDependencies: new Map([
+        ["framer-motion", "1.6.2"],
         ["react", "16.8.6"],
         ["react-dom", "pnp:3dc65079a229aee61f012091a200fb42d9f43240"],
         ["react-scripts", "3.0.1"],
+        ["react-router-dom", "5.0.1"],
+      ]),
+    }],
+  ])],
+  ["framer-motion", new Map([
+    ["1.6.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/"),
+      packageDependencies: new Map([
+        ["react", "16.8.6"],
+        ["react-dom", "pnp:3dc65079a229aee61f012091a200fb42d9f43240"],
+        ["@popmotion/easing", "1.0.2"],
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["popmotion", "9.0.0-beta-8"],
+        ["style-value-types", "3.1.6"],
+        ["stylefire", "6.0.9"],
+        ["tslib", "1.10.0"],
         ["framer-motion", "1.6.2"],
+      ]),
+    }],
+  ])],
+  ["@popmotion/easing", new Map([
+    ["1.0.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+      ]),
+    }],
+  ])],
+  ["@popmotion/popcorn", new Map([
+    ["0.4.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["@popmotion/popcorn", "0.4.2"],
+      ]),
+    }],
+  ])],
+  ["framesync", new Map([
+    ["4.0.4", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+        ["tslib", "1.10.0"],
+        ["framesync", "4.0.4"],
+      ]),
+    }],
+  ])],
+  ["hey-listen", new Map([
+    ["1.0.8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+      ]),
+    }],
+  ])],
+  ["tslib", new Map([
+    ["1.10.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/"),
+      packageDependencies: new Map([
+        ["tslib", "1.10.0"],
+      ]),
+    }],
+    ["1.9.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/"),
+      packageDependencies: new Map([
+        ["tslib", "1.9.3"],
+      ]),
+    }],
+  ])],
+  ["style-value-types", new Map([
+    ["3.1.6", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/"),
+      packageDependencies: new Map([
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+      ]),
+    }],
+  ])],
+  ["popmotion", new Map([
+    ["9.0.0-beta-8", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/"),
+      packageDependencies: new Map([
+        ["@popmotion/easing", "1.0.2"],
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["tslib", "1.10.0"],
+        ["popmotion", "9.0.0-beta-8"],
+      ]),
+    }],
+  ])],
+  ["stylefire", new Map([
+    ["6.0.9", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/"),
+      packageDependencies: new Map([
+        ["@popmotion/popcorn", "0.4.2"],
+        ["framesync", "4.0.4"],
+        ["hey-listen", "1.0.8"],
+        ["style-value-types", "3.1.6"],
+        ["stylefire", "6.0.9"],
       ]),
     }],
   ])],
@@ -160,6 +266,12 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-react-is-16.8.6-5bbc1e2d29141c9fbdfed456343fe2bc430a6a16/node_modules/react-is/"),
       packageDependencies: new Map([
         ["react-is", "16.8.6"],
+      ]),
+    }],
+    ["16.9.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-react-is-16.9.0-21ca9561399aad0ff1a7701c01683e8ca981edcb/node_modules/react-is/"),
+      packageDependencies: new Map([
+        ["react-is", "16.9.0"],
       ]),
     }],
   ])],
@@ -5147,20 +5259,6 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["tslib", new Map([
-    ["1.9.3", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/"),
-      packageDependencies: new Map([
-        ["tslib", "1.9.3"],
-      ]),
-    }],
-    ["1.10.0", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/"),
-      packageDependencies: new Map([
-        ["tslib", "1.10.0"],
-      ]),
-    }],
-  ])],
   ["babel-eslint", new Map([
     ["pnp:950c757374067ee7984d1d91262c8e39c5db6363", {
       packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-950c757374067ee7984d1d91262c8e39c5db6363/node_modules/babel-eslint/"),
@@ -6204,6 +6302,12 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11/node_modules/isarray/"),
       packageDependencies: new Map([
         ["isarray", "1.0.0"],
+      ]),
+    }],
+    ["0.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-isarray-0.0.1-8a18acfca9a8f4177e09abfc6038939b05d1eedf/node_modules/isarray/"),
+      packageDependencies: new Map([
+        ["isarray", "0.0.1"],
       ]),
     }],
   ])],
@@ -8028,6 +8132,13 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["regenerator-runtime", "0.13.2"],
         ["@babel/runtime", "7.4.5"],
+      ]),
+    }],
+    ["7.6.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@babel-runtime-7.6.0-4fc1d642a9fd0299754e8b5de62c631cf5568205/node_modules/@babel/runtime/"),
+      packageDependencies: new Map([
+        ["regenerator-runtime", "0.13.2"],
+        ["@babel/runtime", "7.6.0"],
       ]),
     }],
     ["7.5.4", {
@@ -15262,6 +15373,13 @@ let packageInformationStores = new Map([
         ["path-to-regexp", "0.1.7"],
       ]),
     }],
+    ["1.7.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-path-to-regexp-1.7.0-59fde0f435badacba103a84e9d3bc64e96b9937d/node_modules/path-to-regexp/"),
+      packageDependencies: new Map([
+        ["isarray", "0.0.1"],
+        ["path-to-regexp", "1.7.0"],
+      ]),
+    }],
   ])],
   ["proxy-addr", new Map([
     ["2.0.5", {
@@ -15979,94 +16097,114 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["framer-motion", new Map([
-    ["1.6.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/"),
+  ["react-router-dom", new Map([
+    ["5.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-react-router-dom-5.0.1-ee66f4a5d18b6089c361958e443489d6bab714be/node_modules/react-router-dom/"),
       packageDependencies: new Map([
         ["react", "16.8.6"],
-        ["react-dom", "pnp:3dc65079a229aee61f012091a200fb42d9f43240"],
-        ["@popmotion/easing", "1.0.2"],
-        ["@popmotion/popcorn", "0.4.2"],
-        ["framesync", "4.0.4"],
-        ["hey-listen", "1.0.8"],
-        ["popmotion", "9.0.0-beta-8"],
-        ["style-value-types", "3.1.6"],
-        ["stylefire", "6.0.9"],
-        ["tslib", "1.10.0"],
-        ["framer-motion", "1.6.2"],
+        ["@babel/runtime", "7.6.0"],
+        ["history", "4.10.1"],
+        ["loose-envify", "1.4.0"],
+        ["prop-types", "15.7.2"],
+        ["react-router", "5.0.1"],
+        ["tiny-invariant", "1.0.6"],
+        ["tiny-warning", "1.0.3"],
+        ["react-router-dom", "5.0.1"],
       ]),
     }],
   ])],
-  ["@popmotion/easing", new Map([
-    ["1.0.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/"),
+  ["history", new Map([
+    ["4.10.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-history-4.10.1-33371a65e3a83b267434e2b3f3b1b4c58aad4cf3/node_modules/history/"),
       packageDependencies: new Map([
-        ["@popmotion/easing", "1.0.2"],
+        ["@babel/runtime", "7.6.0"],
+        ["loose-envify", "1.4.0"],
+        ["resolve-pathname", "3.0.0"],
+        ["tiny-invariant", "1.0.6"],
+        ["tiny-warning", "1.0.3"],
+        ["value-equal", "1.0.1"],
+        ["history", "4.10.1"],
       ]),
     }],
   ])],
-  ["@popmotion/popcorn", new Map([
-    ["0.4.2", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/"),
+  ["resolve-pathname", new Map([
+    ["3.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-resolve-pathname-3.0.0-99d02224d3cf263689becbb393bc560313025dcd/node_modules/resolve-pathname/"),
       packageDependencies: new Map([
-        ["@popmotion/easing", "1.0.2"],
-        ["framesync", "4.0.4"],
-        ["hey-listen", "1.0.8"],
-        ["style-value-types", "3.1.6"],
-        ["@popmotion/popcorn", "0.4.2"],
+        ["resolve-pathname", "3.0.0"],
       ]),
     }],
   ])],
-  ["framesync", new Map([
-    ["4.0.4", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/"),
+  ["tiny-invariant", new Map([
+    ["1.0.6", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tiny-invariant-1.0.6-b3f9b38835e36a41c843a3b0907a5a7b3755de73/node_modules/tiny-invariant/"),
       packageDependencies: new Map([
-        ["hey-listen", "1.0.8"],
-        ["tslib", "1.10.0"],
-        ["framesync", "4.0.4"],
+        ["tiny-invariant", "1.0.6"],
       ]),
     }],
   ])],
-  ["hey-listen", new Map([
-    ["1.0.8", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/"),
+  ["tiny-warning", new Map([
+    ["1.0.3", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-tiny-warning-1.0.3-94a30db453df4c643d0fd566060d60a875d84754/node_modules/tiny-warning/"),
       packageDependencies: new Map([
-        ["hey-listen", "1.0.8"],
+        ["tiny-warning", "1.0.3"],
       ]),
     }],
   ])],
-  ["style-value-types", new Map([
-    ["3.1.6", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/"),
+  ["value-equal", new Map([
+    ["1.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-value-equal-1.0.1-1e0b794c734c5c0cade179c437d356d931a34d6c/node_modules/value-equal/"),
       packageDependencies: new Map([
-        ["hey-listen", "1.0.8"],
-        ["style-value-types", "3.1.6"],
+        ["value-equal", "1.0.1"],
       ]),
     }],
   ])],
-  ["popmotion", new Map([
-    ["9.0.0-beta-8", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/"),
+  ["react-router", new Map([
+    ["5.0.1", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-react-router-5.0.1-04ee77df1d1ab6cb8939f9f01ad5702dbadb8b0f/node_modules/react-router/"),
       packageDependencies: new Map([
-        ["@popmotion/easing", "1.0.2"],
-        ["@popmotion/popcorn", "0.4.2"],
-        ["framesync", "4.0.4"],
-        ["hey-listen", "1.0.8"],
-        ["style-value-types", "3.1.6"],
-        ["tslib", "1.10.0"],
-        ["popmotion", "9.0.0-beta-8"],
+        ["react", "16.8.6"],
+        ["@babel/runtime", "7.6.0"],
+        ["history", "4.10.1"],
+        ["hoist-non-react-statics", "3.3.0"],
+        ["loose-envify", "1.4.0"],
+        ["mini-create-react-context", "0.3.2"],
+        ["path-to-regexp", "1.7.0"],
+        ["prop-types", "15.7.2"],
+        ["react-is", "16.9.0"],
+        ["tiny-invariant", "1.0.6"],
+        ["tiny-warning", "1.0.3"],
+        ["react-router", "5.0.1"],
       ]),
     }],
   ])],
-  ["stylefire", new Map([
-    ["6.0.9", {
-      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/"),
+  ["hoist-non-react-statics", new Map([
+    ["3.3.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-hoist-non-react-statics-3.3.0-b09178f0122184fb95acf525daaecb4d8f45958b/node_modules/hoist-non-react-statics/"),
       packageDependencies: new Map([
-        ["@popmotion/popcorn", "0.4.2"],
-        ["framesync", "4.0.4"],
-        ["hey-listen", "1.0.8"],
-        ["style-value-types", "3.1.6"],
-        ["stylefire", "6.0.9"],
+        ["react-is", "16.9.0"],
+        ["hoist-non-react-statics", "3.3.0"],
+      ]),
+    }],
+  ])],
+  ["mini-create-react-context", new Map([
+    ["0.3.2", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-mini-create-react-context-0.3.2-79fc598f283dd623da8e088b05db8cddab250189/node_modules/mini-create-react-context/"),
+      packageDependencies: new Map([
+        ["prop-types", "15.7.2"],
+        ["react", "16.8.6"],
+        ["gud", "1.0.0"],
+        ["tiny-warning", "1.0.3"],
+        ["@babel/runtime", "7.6.0"],
+        ["mini-create-react-context", "0.3.2"],
+      ]),
+    }],
+  ])],
+  ["gud", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../Library/Caches/Yarn/v4/npm-gud-1.0.0-a489581b17e6a70beca9abe3ae57de7a499852c0/node_modules/gud/"),
+      packageDependencies: new Map([
+        ["gud", "1.0.0"],
       ]),
     }],
   ])],
@@ -17618,6 +17756,16 @@ let locatorsByLocations = new Map([
   ["./.pnp/externals/pnp-3ab26baded6542baa646a548257e909cf7ebe622/node_modules/@babel/plugin-syntax-optional-catch-binding/", blacklistedLocator],
   ["./.pnp/externals/pnp-81c551b27de3474fec6e38c8331c9e5f5cb12c26/node_modules/@babel/plugin-transform-react-display-name/", blacklistedLocator],
   ["./videos/react-demos/", {"name":"react-demos","reference":"0.1.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/", {"name":"framer-motion","reference":"1.6.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/", {"name":"@popmotion/easing","reference":"1.0.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/", {"name":"@popmotion/popcorn","reference":"0.4.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/", {"name":"framesync","reference":"4.0.4"}],
+  ["../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/", {"name":"hey-listen","reference":"1.0.8"}],
+  ["../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/", {"name":"tslib","reference":"1.10.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/", {"name":"tslib","reference":"1.9.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/", {"name":"style-value-types","reference":"3.1.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/", {"name":"popmotion","reference":"9.0.0-beta-8"}],
+  ["../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/", {"name":"stylefire","reference":"6.0.9"}],
   ["../../Library/Caches/Yarn/v4/npm-react-16.8.6-ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe/node_modules/react/", {"name":"react","reference":"16.8.6"}],
   ["../../Library/Caches/Yarn/v4/npm-loose-envify-1.4.0-71ee51fa7be4caec1a63839f7e682d8132d30caf/node_modules/loose-envify/", {"name":"loose-envify","reference":"1.4.0"}],
   ["../../Library/Caches/Yarn/v4/npm-js-tokens-4.0.0-19203fb59991df98e3a287050d4647cdeaf32499/node_modules/js-tokens/", {"name":"js-tokens","reference":"4.0.0"}],
@@ -17625,6 +17773,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-object-assign-4.1.1-2109adc7965887cfc05cbbd442cac8bfbb360863/node_modules/object-assign/", {"name":"object-assign","reference":"4.1.1"}],
   ["../../Library/Caches/Yarn/v4/npm-prop-types-15.7.2-52c41e75b8c87e72b9d9360e0206b99dcbffa6c5/node_modules/prop-types/", {"name":"prop-types","reference":"15.7.2"}],
   ["../../Library/Caches/Yarn/v4/npm-react-is-16.8.6-5bbc1e2d29141c9fbdfed456343fe2bc430a6a16/node_modules/react-is/", {"name":"react-is","reference":"16.8.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-react-is-16.9.0-21ca9561399aad0ff1a7701c01683e8ca981edcb/node_modules/react-is/", {"name":"react-is","reference":"16.9.0"}],
   ["../../Library/Caches/Yarn/v4/npm-scheduler-0.13.6-466a4ec332467b31a91b9bf74e5347072e4cd889/node_modules/scheduler/", {"name":"scheduler","reference":"0.13.6"}],
   ["./.pnp/externals/pnp-3dc65079a229aee61f012091a200fb42d9f43240/node_modules/react-dom/", {"name":"react-dom","reference":"pnp:3dc65079a229aee61f012091a200fb42d9f43240"}],
   ["./.pnp/externals/pnp-4dc756a90aebf671b7ca570dffad7e4b77d0e07a/node_modules/react-dom/", {"name":"react-dom","reference":"pnp:4dc756a90aebf671b7ca570dffad7e4b77d0e07a"}],
@@ -18135,8 +18284,6 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-eslint-visitor-keys-1.0.0-3f3180fb2e291017716acb4c9d6d5b5c34a6a81d/node_modules/eslint-visitor-keys/", {"name":"eslint-visitor-keys","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-requireindex-1.2.0-3463cdb22ee151902635aa6c9535d4de9c2ef1ef/node_modules/requireindex/", {"name":"requireindex","reference":"1.2.0"}],
   ["../../Library/Caches/Yarn/v4/npm-tsutils-3.10.0-6f1c95c94606e098592b0dff06590cf9659227d6/node_modules/tsutils/", {"name":"tsutils","reference":"3.10.0"}],
-  ["../../Library/Caches/Yarn/v4/npm-tslib-1.9.3-d7e4dd79245d85428c4d7e4822a79917954ca286/node_modules/tslib/", {"name":"tslib","reference":"1.9.3"}],
-  ["../../Library/Caches/Yarn/v4/npm-tslib-1.10.0-c3c19f95973fb0a62973fb09d90d961ee43e5c8a/node_modules/tslib/", {"name":"tslib","reference":"1.10.0"}],
   ["./.pnp/externals/pnp-950c757374067ee7984d1d91262c8e39c5db6363/node_modules/babel-eslint/", {"name":"babel-eslint","reference":"pnp:950c757374067ee7984d1d91262c8e39c5db6363"}],
   ["./.pnp/externals/pnp-6c0a96a39fb855669fc5bc9ee606572104d5f3a9/node_modules/babel-eslint/", {"name":"babel-eslint","reference":"pnp:6c0a96a39fb855669fc5bc9ee606572104d5f3a9"}],
   ["./.pnp/externals/pnp-4e7a4e878c7bab48710a5d79654c9609b7e73ecc/node_modules/babel-jest/", {"name":"babel-jest","reference":"pnp:4e7a4e878c7bab48710a5d79654c9609b7e73ecc"}],
@@ -18243,6 +18390,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-union-value-1.0.0-5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4/node_modules/union-value/", {"name":"union-value","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-unset-value-1.0.0-8376873f7d2335179ffb1e6fc3a8ed0dfc8ab559/node_modules/unset-value/", {"name":"unset-value","reference":"1.0.0"}],
   ["../../Library/Caches/Yarn/v4/npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11/node_modules/isarray/", {"name":"isarray","reference":"1.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-isarray-0.0.1-8a18acfca9a8f4177e09abfc6038939b05d1eedf/node_modules/isarray/", {"name":"isarray","reference":"0.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-class-utils-0.3.6-f93369ae8b9a7ce02fd41faad0ca83033190c463/node_modules/class-utils/", {"name":"class-utils","reference":"0.3.6"}],
   ["../../Library/Caches/Yarn/v4/npm-define-property-0.2.5-c35b1ef918ec3c990f9a5bc57be04aacec5c8116/node_modules/define-property/", {"name":"define-property","reference":"0.2.5"}],
   ["../../Library/Caches/Yarn/v4/npm-define-property-1.0.0-769ebaaf3f4a63aad3af9e8d304c9bbe79bfb0e6/node_modules/define-property/", {"name":"define-property","reference":"1.0.0"}],
@@ -18432,6 +18580,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-@babel-plugin-syntax-typescript-7.3.3-a7cc3f66119a9f7ebe2de5383cce193473d65991/node_modules/@babel/plugin-syntax-typescript/", {"name":"@babel/plugin-syntax-typescript","reference":"7.3.3"}],
   ["../../Library/Caches/Yarn/v4/npm-@babel-runtime-7.4.3-79888e452034223ad9609187a0ad1fe0d2ad4bdc/node_modules/@babel/runtime/", {"name":"@babel/runtime","reference":"7.4.3"}],
   ["../../Library/Caches/Yarn/v4/npm-@babel-runtime-7.4.5-582bb531f5f9dc67d2fcb682979894f75e253f12/node_modules/@babel/runtime/", {"name":"@babel/runtime","reference":"7.4.5"}],
+  ["../../Library/Caches/Yarn/v4/npm-@babel-runtime-7.6.0-4fc1d642a9fd0299754e8b5de62c631cf5568205/node_modules/@babel/runtime/", {"name":"@babel/runtime","reference":"7.6.0"}],
   ["../../Library/Caches/Yarn/v4/npm-@babel-runtime-7.5.4-cb7d1ad7c6d65676e66b47186577930465b5271b/node_modules/@babel/runtime/", {"name":"@babel/runtime","reference":"7.5.4"}],
   ["../../Library/Caches/Yarn/v4/npm-regenerator-runtime-0.13.2-32e59c9a6fb9b1a4aff09b4930ca2d4477343447/node_modules/regenerator-runtime/", {"name":"regenerator-runtime","reference":"0.13.2"}],
   ["../../Library/Caches/Yarn/v4/npm-regenerator-runtime-0.11.1-be05ad7f9bf7d22e056f9726cee5017fbf19e2e9/node_modules/regenerator-runtime/", {"name":"regenerator-runtime","reference":"0.11.1"}],
@@ -19136,6 +19285,7 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-merge-descriptors-1.0.1-b00aaa556dd8b44568150ec9d1b953f3f90cbb61/node_modules/merge-descriptors/", {"name":"merge-descriptors","reference":"1.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-methods-1.1.2-5529a4d67654134edcc5266656835b0f851afcee/node_modules/methods/", {"name":"methods","reference":"1.1.2"}],
   ["../../Library/Caches/Yarn/v4/npm-path-to-regexp-0.1.7-df604178005f522f15eb4490e7247a1bfaa67f8c/node_modules/path-to-regexp/", {"name":"path-to-regexp","reference":"0.1.7"}],
+  ["../../Library/Caches/Yarn/v4/npm-path-to-regexp-1.7.0-59fde0f435badacba103a84e9d3bc64e96b9937d/node_modules/path-to-regexp/", {"name":"path-to-regexp","reference":"1.7.0"}],
   ["../../Library/Caches/Yarn/v4/npm-proxy-addr-2.0.5-34cbd64a2d81f4b1fd21e76f9f06c8a45299ee34/node_modules/proxy-addr/", {"name":"proxy-addr","reference":"2.0.5"}],
   ["../../Library/Caches/Yarn/v4/npm-forwarded-0.1.2-98c23dab1175657b8c0573e8ceccd91b0ff18c84/node_modules/forwarded/", {"name":"forwarded","reference":"0.1.2"}],
   ["../../Library/Caches/Yarn/v4/npm-ipaddr-js-1.9.0-37df74e430a0e47550fe54a2defe30d8acd95f65/node_modules/ipaddr.js/", {"name":"ipaddr.js","reference":"1.9.0"}],
@@ -19209,14 +19359,16 @@ let locatorsByLocations = new Map([
   ["../../Library/Caches/Yarn/v4/npm-workbox-streams-4.3.1-0b57da70e982572de09c8742dd0cb40a6b7c2cc3/node_modules/workbox-streams/", {"name":"workbox-streams","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-sw-4.3.1-df69e395c479ef4d14499372bcd84c0f5e246164/node_modules/workbox-sw/", {"name":"workbox-sw","reference":"4.3.1"}],
   ["../../Library/Caches/Yarn/v4/npm-workbox-window-4.3.1-ee6051bf10f06afa5483c9b8dfa0531994ede0f3/node_modules/workbox-window/", {"name":"workbox-window","reference":"4.3.1"}],
-  ["../../Library/Caches/Yarn/v4/npm-framer-motion-1.6.2-54b9d79c0bfe00cf93e812cbf86eb284c25134ea/node_modules/framer-motion/", {"name":"framer-motion","reference":"1.6.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-@popmotion-easing-1.0.2-17d925c45b4bf44189e5a38038d149df42d8c0b4/node_modules/@popmotion/easing/", {"name":"@popmotion/easing","reference":"1.0.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-@popmotion-popcorn-0.4.2-ff9f5334e8e808ed02237b7b9c928619d1eb68ff/node_modules/@popmotion/popcorn/", {"name":"@popmotion/popcorn","reference":"0.4.2"}],
-  ["../../Library/Caches/Yarn/v4/npm-framesync-4.0.4-79c42c0118f26821c078570db0ff81fb863516a2/node_modules/framesync/", {"name":"framesync","reference":"4.0.4"}],
-  ["../../Library/Caches/Yarn/v4/npm-hey-listen-1.0.8-8e59561ff724908de1aa924ed6ecc84a56a9aa68/node_modules/hey-listen/", {"name":"hey-listen","reference":"1.0.8"}],
-  ["../../Library/Caches/Yarn/v4/npm-style-value-types-3.1.6-6b1da918214d92c74dc7fc2d074013f372b47d76/node_modules/style-value-types/", {"name":"style-value-types","reference":"3.1.6"}],
-  ["../../Library/Caches/Yarn/v4/npm-popmotion-9.0.0-beta-8-f5a709f11737734e84f2a6b73f9bcf25ee30c388/node_modules/popmotion/", {"name":"popmotion","reference":"9.0.0-beta-8"}],
-  ["../../Library/Caches/Yarn/v4/npm-stylefire-6.0.9-4c9ab1d2a68e99a2e5a83e11333495824e494632/node_modules/stylefire/", {"name":"stylefire","reference":"6.0.9"}],
+  ["../../Library/Caches/Yarn/v4/npm-react-router-dom-5.0.1-ee66f4a5d18b6089c361958e443489d6bab714be/node_modules/react-router-dom/", {"name":"react-router-dom","reference":"5.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-history-4.10.1-33371a65e3a83b267434e2b3f3b1b4c58aad4cf3/node_modules/history/", {"name":"history","reference":"4.10.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-resolve-pathname-3.0.0-99d02224d3cf263689becbb393bc560313025dcd/node_modules/resolve-pathname/", {"name":"resolve-pathname","reference":"3.0.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-tiny-invariant-1.0.6-b3f9b38835e36a41c843a3b0907a5a7b3755de73/node_modules/tiny-invariant/", {"name":"tiny-invariant","reference":"1.0.6"}],
+  ["../../Library/Caches/Yarn/v4/npm-tiny-warning-1.0.3-94a30db453df4c643d0fd566060d60a875d84754/node_modules/tiny-warning/", {"name":"tiny-warning","reference":"1.0.3"}],
+  ["../../Library/Caches/Yarn/v4/npm-value-equal-1.0.1-1e0b794c734c5c0cade179c437d356d931a34d6c/node_modules/value-equal/", {"name":"value-equal","reference":"1.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-react-router-5.0.1-04ee77df1d1ab6cb8939f9f01ad5702dbadb8b0f/node_modules/react-router/", {"name":"react-router","reference":"5.0.1"}],
+  ["../../Library/Caches/Yarn/v4/npm-hoist-non-react-statics-3.3.0-b09178f0122184fb95acf525daaecb4d8f45958b/node_modules/hoist-non-react-statics/", {"name":"hoist-non-react-statics","reference":"3.3.0"}],
+  ["../../Library/Caches/Yarn/v4/npm-mini-create-react-context-0.3.2-79fc598f283dd623da8e088b05db8cddab250189/node_modules/mini-create-react-context/", {"name":"mini-create-react-context","reference":"0.3.2"}],
+  ["../../Library/Caches/Yarn/v4/npm-gud-1.0.0-a489581b17e6a70beca9abe3ae57de7a499852c0/node_modules/gud/", {"name":"gud","reference":"1.0.0"}],
   ["./videos/sapper-is-dapper/", {"name":"TODO","reference":"0.0.1"}],
   ["../../Library/Caches/Yarn/v4/npm-polka-0.5.2-588bee0c5806dbc6c64958de3a1251860e9f2e26/node_modules/polka/", {"name":"polka","reference":"0.5.2"}],
   ["../../Library/Caches/Yarn/v4/npm-@polka-url-0.5.0-b21510597fd601e5d7c95008b76bf0d254ebfd31/node_modules/@polka/url/", {"name":"@polka/url","reference":"0.5.0"}],
