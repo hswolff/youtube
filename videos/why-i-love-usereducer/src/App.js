@@ -37,17 +37,17 @@ function App() {
   return (
     <>
       {!CurrentRoute && (
-        <div className="App App-Column">
-          <a href="#useState">useState</a>
+        <div className='App App-Column'>
+          <a href='#useState'>useState</a>
           <br />
           <br />
-          <a href="#useReducer">useReducer</a>
+          <a href='#useReducer'>useReducer</a>
           <br />
           <br />
-          <a href="#useReducerImmer">useReducerImmer</a>
+          <a href='#useReducerImmer'>useReducerImmer</a>
           <br />
           <br />
-          <a href="#withContext">LoginWithContext</a>
+          <a href='#withContext'>LoginWithContext</a>
         </div>
       )}
       {CurrentRoute && <CurrentRoute />}

@@ -8,7 +8,7 @@ export default function LoginUseState() {
   const [error, setError] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const onSubmit = async e => {
+  const onSubmit = async (e) => {
     e.preventDefault();
 
     setError('');
@@ -26,31 +26,31 @@ export default function LoginUseState() {
   };
 
   return (
-    <div className="App">
-      <div className="login-container">
+    <div className='App'>
+      <div className='login-container'>
         {isLoggedIn ? (
           <>
             <h1>Welcome {username}!</h1>
             <button onClick={() => setIsLoggedIn(false)}>Log Out</button>
           </>
         ) : (
-          <form className="form" onSubmit={onSubmit}>
-            {error && <p className="error">{error}</p>}
+          <form className='form' onSubmit={onSubmit}>
+            {error && <p className='error'>{error}</p>}
             <p>Please Login!</p>
             <input
-              type="text"
-              placeholder="username"
+              type='text'
+              placeholder='username'
               value={username}
-              onChange={e => setUsername(e.currentTarget.value)}
+              onChange={(e) => setUsername(e.currentTarget.value)}
             />
             <input
-              type="password"
-              placeholder="password"
-              autoComplete="new-password"
+              type='password'
+              placeholder='password'
+              autoComplete='new-password'
               value={password}
-              onChange={e => setPassword(e.currentTarget.value)}
+              onChange={(e) => setPassword(e.currentTarget.value)}
             />
-            <button className="submit" type="submit" disabled={isLoading}>
+            <button className='submit' type='submit' disabled={isLoading}>
               {isLoading ? 'Logging in...' : 'Log In'}
             </button>
           </form>

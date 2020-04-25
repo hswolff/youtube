@@ -1,4 +1,4 @@
-import React, { useContext, useMemo } from 'react';
+import React, { useContext } from 'react';
 import { useImmerReducer } from 'use-immer';
 import { login } from './utils';
 
@@ -33,7 +33,7 @@ function loginReducer(draft, action) {
       return;
     }
     case 'toggleTodoCompleted': {
-      const todo = draft.todos.find(item => item.title === action.payload);
+      const todo = draft.todos.find((item) => item.title === action.payload);
       todo.completed = !todo.completed;
       return;
     }
@@ -73,7 +73,7 @@ export default function LoginUseContext() {
   const [state, dispatch] = useImmerReducer(loginReducer, initialState);
   const { username, password, isLoading, error, isLoggedIn, todos } = state;
 
-  const onSubmit = async e => {
+  const onSubmit = async (e) => {
     e.preventDefault();
 
     dispatch({ type: 'login' });
@@ -89,8 +89,8 @@ export default function LoginUseContext() {
   return (
     <DispatchContext.Provider value={dispatch}>
       <StateContext.Provider value={state}>
-        <div className="App useContext">
-          <div className="login-container">
+        <div className='App useContext'>
+          <div className='login-container'>
             {isLoggedIn ? (
               <>
                 <h1>Welcome {username}!</h1>
@@ -99,14 +99,14 @@ export default function LoginUseContext() {
                 </button>
               </>
             ) : (
-              <form className="form" onSubmit={onSubmit}>
-                {error && <p className="error">{error}</p>}
+              <form className='form' onSubmit={onSubmit}>
+                {error && <p className='error'>{error}</p>}
                 <p>Please Login!</p>
                 <input
-                  type="text"
-                  placeholder="username"
+                  type='text'
+                  placeholder='username'
                   value={username}
-                  onChange={e =>
+                  onChange={(e) =>
                     dispatch({
                       type: 'field',
                       fieldName: 'username',
@@ -115,11 +115,11 @@ export default function LoginUseContext() {
                   }
                 />
                 <input
-                  type="password"
-                  placeholder="password"
-                  autoComplete="new-password"
+                  type='password'
+                  placeholder='password'
+                  autoComplete='new-password'
                   value={password}
-                  onChange={e =>
+                  onChange={(e) =>
                     dispatch({
                       type: 'field',
                       fieldName: 'password',
@@ -127,7 +127,7 @@ export default function LoginUseContext() {
                     })
                   }
                 />
-                <button className="submit" type="submit" disabled={isLoading}>
+                <button className='submit' type='submit' disabled={isLoading}>
                   {isLoading ? 'Logging in...' : 'Log In'}
                 </button>
               </form>
@@ -143,9 +143,9 @@ export default function LoginUseContext() {
 
 function TodoPage({ todos }) {
   return (
-    <div className="todoContainer">
+    <div className='todoContainer'>
       <h2>Todos</h2>
-      {todos.map(item => (
+      {todos.map((item) => (
         <TodoItem key={item.title} {...item} />
       ))}
     </div>
@@ -154,15 +154,15 @@ function TodoPage({ todos }) {
 
 function TodoItem({ title, completed }) {
   const dispatch = useContext(DispatchContext);
-  const state = useContext(StateContext);
+  // const state = useContext(StateContext);
   // const { isLoggedIn } = state;
   const isLoggedIn = true;
   return (
-    <div className="todoItem">
+    <div className='todoItem'>
       <p>{title}</p>
       <div>
         <input
-          type="checkbox"
+          type='checkbox'
           checked={completed}
           onClick={() => {
             if (!isLoggedIn) {
