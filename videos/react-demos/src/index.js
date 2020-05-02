@@ -14,6 +14,11 @@ const routes = [
     name: 'Async React Hooks',
     component: React.lazy(() => import('./demo/async-hooks')),
   },
+  {
+    path: '/useEventListener',
+    name: 'useEventListener',
+    component: React.lazy(() => import('./demo/use-event-listener')),
+  },
 ];
 
 function App() {
